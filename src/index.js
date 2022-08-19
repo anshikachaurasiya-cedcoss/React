@@ -3,15 +3,42 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-var i,fact=1;
-const factorial=(number)=>{
-  for(i=1;i<=number;i++)
-    fact = fact * i;
-    return fact;
+// var i,fact=1;
+// const factorial=(number)=>{
+//   for(i=1;i<=number;i++)
+//     fact = fact * i;
+//     return fact;
+// }
+// root.render(
+//   <div>
+//     <h1>{factorial(10)}</h1>
+//   </div>
+// );
+// /////////////////////////////Task2///////////////////////////////////
+var p=true;
+const prime=()=>{
+  let i =2;
+  let x="";
+while(i <= 100){
+  let j=2;
+  while(j < i - 1){
+    if(i % j === 0){
+      p = false;
+      break;
+    }
+    j++;
+  }
+  if(p){
+    x=x+i+" ";
+  }
+  p = true;
+  i++;
+}
+return x;
 }
 root.render(
   <div>
-    <h1>{factorial(10)}</h1>
+    <p>{prime()}</p>
   </div>
-);
+)
 reportWebVitals();
