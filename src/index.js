@@ -15,30 +15,43 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   </div>
 // );
 // /////////////////////////////Task2///////////////////////////////////
-var p=true;
-const prime=()=>{
-  let i =2;
-  let x="";
-while(i <= 100){
-  let j=2;
-  while(j < i - 1){
-    if(i % j === 0){
-      p = false;
-      break;
-    }
-    j++;
-  }
-  if(p){
-    x=x+i+" ";
-  }
-  p = true;
-  i++;
-}
-return x;
-}
+// var p=true;
+// const prime=()=>{
+//   let i =2;
+//   let x="";
+// while(i <= 100){
+//   let j=2;
+//   while(j < i - 1){
+//     if(i % j === 0){
+//       p = false;
+//       break;
+//     }
+//     j++;
+//   }
+//   if(p){
+//     x=x+i+" ";
+//   }
+//   p = true;
+//   i++;
+// }
+// return x;
+// }
+// root.render(
+//   <div>
+//     <p>{prime()}</p>
+//   </div>
+// )
+// ///////////////////////////task 3//////////////////////
+const arr =["Lucknow","Kanpur","Allahabad","Agra","Jhansi","Bareilly","Basti","Lakhimpur"];
+var x= arr.sort();
+const renderArr = x.map((item, index) =>
+<div key={index}>{item}</div>
+);
 root.render(
   <div>
-    <p>{prime()}</p>
+    <ul>
+      {renderArr}
+    </ul>
   </div>
 )
 reportWebVitals();
