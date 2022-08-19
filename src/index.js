@@ -42,15 +42,26 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   </div>
 // )
 // ///////////////////////////task 3//////////////////////
+// const arr =["Lucknow","Kanpur","Allahabad","Agra","Jhansi","Bareilly","Basti","Lakhimpur"];
+// var x= arr.sort();
+// const renderArr = x.map((item, index) =>
+// <div key={index}>{item}</div>
+// );
+// root.render(
+//   <div>
+//     <ul>
+//       {renderArr}
+//     </ul>
+//   </div>
+// )
+// //////////////////////////////////task 4/////////////////
 const arr =["Lucknow","Kanpur","Allahabad","Agra","Jhansi","Bareilly","Basti","Lakhimpur"];
-var x= arr.sort();
-const renderArr = x.map((item, index) =>
-<div key={index}>{item}</div>
-);
+const renderArr = arr.filter((item) => item.startsWith("B"));
+const Arr =renderArr.map((item, index) =><div key={index}>{item}</div>)
 root.render(
   <div>
     <ul>
-      {renderArr}
+        {Arr}
     </ul>
   </div>
 )
