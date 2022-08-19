@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import MobileManuComponent from './components/MobileManuComponent';
 import MobileOsComponents from './components/MobileOsComponents';
+import ReactAppComponent from './components/ReactAppComponent';
 import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <MobileOsComponents/>
     <MobileManuComponent/>
+    <ReactAppComponent/>
   </div>
 );
 
