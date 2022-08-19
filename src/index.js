@@ -4,6 +4,7 @@ import './index.css';
 import MobileManuComponent from './components/MobileManuComponent';
 import MobileOsComponents from './components/MobileOsComponents';
 import ReactAppComponent from './components/ReactAppComponent';
+import MainComponent from './components/MainComponent';
 import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,9 +12,10 @@ root.render(
     <MobileOsComponents/>
     <MobileManuComponent/>
     <ReactAppComponent/>
+    <h3>Q4. Make the component structure as given in the attachment.</h3>
+    <MainComponent/>
   </div>
 );
-
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
