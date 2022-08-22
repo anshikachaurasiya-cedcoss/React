@@ -44,6 +44,9 @@ export class Component1 extends Component {
         <div>
           <Component2/>
         </div>
+        <div>
+
+        </div>
       </div>
     )
   }
