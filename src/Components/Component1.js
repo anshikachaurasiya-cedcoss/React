@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Component2 from './Component2'
 export class Component1 extends Component {
   render() {
     const mainDiv={
@@ -40,6 +40,9 @@ export class Component1 extends Component {
             <p>₹25 for 1 week.</p>
             <button style={{borderRadius:20,border:'none',height:30,width:100}}>GET MINI</button>
             <p style={{textDecoration:'underline',fontSize:10}}>Terms and conditions apply.</p>
+        </div>
+        <div>
+          <Component2/>
         </div>
       </div>
     )

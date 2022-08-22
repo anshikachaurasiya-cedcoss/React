@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div id='mainDivSpotify'>
+  <div>
     <Component1/>
   </div>
 );
