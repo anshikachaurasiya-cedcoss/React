@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-
+import Component4 from './Component4'
 export class Component3 extends Component {
   render() {
     return (
+        <>
       <div id='Component3'>
         <h1>Connect with music Culture</h1>
         <div id='imagesDiv'>
@@ -28,6 +29,10 @@ export class Component3 extends Component {
             </div>
         </div>
       </div>
+      <div>
+        <Component4/>
+      </div>
+      </>
     )
   }
 }
