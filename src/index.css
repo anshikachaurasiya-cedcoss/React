@@ -195,7 +195,7 @@ i{
 }
 #foot{
   height: 10%;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   width: 60%;
   border-radius:8px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -203,4 +203,23 @@ i{
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+#Component5{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.selectDiv{
+  height: 10%;
+  width: 80%;
+}
+.selectDiv select{
+  height: 100%;
+  width: 98%;
+  border: none;
+  background-color: white;
+  border-bottom: 1px ridge rgb(212, 206, 206);
+  font-weight: bold;
 }
