@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-
+import Component4 from './Component4'
 export class Component3 extends Component {
   render() {
     return (
-      <div className='slider'>
+    <>
+        <div style={{width:"100%",overflow:'hidden'}}>
+            <div className='slider'>
             <div className='slide'>
                 <div className='btn'>
                     <button><i class="fa fa-angle-left" aria-hidden="true"></i></button>
@@ -39,7 +41,12 @@ export class Component3 extends Component {
                 </div>
                 <img src='https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/1ea56ef125672118.jpg?q=50'/>
             </div>
+            </div>
+        </div>
+      <div>
+        <Component4/>
       </div>
+    </>
     )
   }
 }
