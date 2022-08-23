@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-
+import Component3 from './Component3'
 export class Component2 extends Component {
   render() {
     return (
-      <div id='Component2'>
+        <>
+        <div id='Component2'>
         <div className='innerDiv'>
             <img src='https://image.shutterstock.com/image-vector/special-offer-paper-white-background-600w-448282759.jpg'/>
             <label>Top Offers</label>
@@ -33,6 +34,10 @@ export class Component2 extends Component {
             <select><option>Toys & More</option></select>
         </div>
       </div>
+      <div>
+        <Component3/>
+      </div>
+      </>
     )
   }
 }
