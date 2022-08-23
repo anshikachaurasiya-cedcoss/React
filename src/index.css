@@ -13,11 +13,12 @@ code {
 }
 #Component1{
   height: 50px;
-  background-color: rgb(70, 70, 236);
+  background-color: rgb(36, 117, 240);
   display: flex;
   flex-direction: row;
   justify-content: center;
   color: white;
+  font-weight: 500;
 }
 #Component1 img{
   height: 100%;
@@ -25,11 +26,47 @@ code {
 }
 #searchbarInput{
   height: 50%;
-  width: 35%;
+  width: 25%;
   background-color: white;
   margin: 0.8%;
 }
 #cartDiv{
   height: 50%;
   margin: 00.8%;
+}
+#Component2{
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 600;
+}
+.innerDiv{
+  height: 80%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+.innerDiv img{
+  height: 70%;
+  width: 90%;
+}
+.innerDiv select{
+  border: none;
+  width: 60%;
+  height: 30%;
+  background-color: white;
+  text-align: center;
+  font-weight: 600;
+
+}
+.innerDiv label{
+  width: 90%;
+  height: 30%;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2%;
 }
