@@ -17,3 +17,41 @@ code {
 #circle{
   list-style-type: circle;
 }
+#blueDiv{
+  height: 400px;
+  width: 50%;
+  margin: 2%;
+}
+#navbar{
+  height: 20%;
+  width: 100%;
+  background-color: #00bdff;
+}
+#bodyDiv{
+  height: 215px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#left{
+  height: 300px;
+}
+#profileDiv{
+  height: 90px;
+  background-color: #00bdff;
+}
+#centerDiv{
+  height: 205px;
+  width: 45%;
+  background-color: #00bdff;
+  justify-content: center;
+  display: flex;
+  margin: 1%;
+}
+#corner{
+  height: 100px;
+  width: 30%;
+  background-color: #00bdff;
+  margin: 1%;
+}
