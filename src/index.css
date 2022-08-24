@@ -55,3 +55,21 @@ code {
   background-color: #00bdff;
   margin: 1%;
 }
+#mainDivImage{
+  height: 400px;
+  width: 50%;
+  background-color: rgb(226, 220, 220);
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+}
+#image5{
+  height: 92%;
+  width: 30%;
+  background-color:whitesmoke;
+  margin: 2%;
+}
+.image{
+  height: 30%;
+  width: 100%;
+}
