@@ -11,3 +11,248 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#Component1{
+  height: 50px;
+  background-color: rgb(36, 117, 240);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+}
+#Component1 img{
+  height: 100%;
+  width: 10%;
+}
+#searchbarInput{
+  height: 50%;
+  width: 25%;
+  background-color: white;
+  margin: 0.8%;
+}
+#cartDiv{
+  height: 50%;
+  margin: 00.8%;
+}
+#Component2{
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 600;
+}
+.innerDiv{
+  height: 80%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+.innerDiv img{
+  height: 70%;
+  width: 90%;
+}
+.innerDiv select{
+  border: none;
+  width: 60%;
+  height: 30%;
+  background-color: white;
+  text-align: center;
+  font-weight: 600;
+}
+.innerDiv label{
+  width: 90%;
+  height: 30%;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2%;
+}
+.slider{
+  overflow: hidden;
+  height: 250px;
+}
+.slider div{
+  float: left;
+  width: 20%;
+}
+.slider img{
+  width: 100%;
+  float: left;
+}
+.btn{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  margin-top: 0.8%;
+}
+.btn button{
+  width: 3%;
+  border: none;
+  background-color: white;
+  border-radius: 2px 2px 2px 2px;
+}
+.btn i{
+  font-size: 40px;
+}
+.slider{
+  position: relative;
+  width: 500%;
+  margin: 0px;
+  left: 0;
+  animation: 20s slideImage infinite;
+}
+@keyframes slideImage{
+  0%{
+    left: 0%;
+  }
+  10%{
+    left: 0%;
+  }
+  12%{
+    left: -100%;
+  }
+  22%{
+    left: -100%;
+  }
+  24%{
+    left: -200%;
+  }
+  34%{
+    left: -200%;
+  }
+  36%{
+    left: -300%;
+  }
+  46%{
+    left: -300%;
+  }
+  48%{
+    left: -400%;
+  }
+  58%{
+    left: -400%;
+  }
+  60%{
+    left: -300%;
+  }
+  70%{
+    left: -300%;
+  }
+  72%{
+    left: -200%;
+  }
+  82%{
+    left: -200%;
+  }
+  84%{
+    left: -100%;
+  }
+  94%{
+    left: -100%;
+  }
+  96%{
+    left: 0%;
+  }
+
+}
+#Component4{
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+#leftDiv{
+  height: 90%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 80%;
+  margin: 1%;
+  background-color: white;
+}
+#rightDiv{
+  height: 90%;
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 1%;
+}
+#rightDiv img{
+  height: 96%;
+  width: 92%;
+  margin: 2%;
+}
+#upperDiv{
+  height: 15%;
+  border-bottom: 1px ridge rgb(216, 213, 213);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#uLeft{
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+#uLeft img{
+  height: 45%;
+  width: 6%;
+  margin: 2%;
+}
+#uRight{
+  height: 80%;
+  width: 10%;
+  margin: 1%;
+}
+#uRight button{
+  border: none;
+  height: 80%;
+  width: 90%;
+  background-color: rgb(36, 117, 240);
+  color: white;
+  font-weight: 600;
+  border-radius: 2px;
+}
+#lowerDiv{
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.imgDiv{
+  height: 90%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+}
+.imgDiv img{
+  height: 50%;
+  width: 90%;
+  margin: 3%;
+}
+.imgDiv label{
+  font-size: 0.8rem;
+  margin: 2%;
+}
+.imgdiv{
+  height: 90%;
+  width: 5%;
+}
+#btnDiv{
+  height: 30%;
+  width: 100%;
+  margin-top: 60px;
+}
+#btnDiv button{
+  height: 90%;
+  width: 100%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+}
+#btnDiv i{
+  font-size: 40px;
+}
