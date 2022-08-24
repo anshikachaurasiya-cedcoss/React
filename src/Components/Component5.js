@@ -1,0 +1,33 @@
+import React from 'react'
+import Component6 from './Component6'
+
+const Component5=()=> {
+  return (
+    <>
+      <div id='Component5'>
+        <h2>Questions?</h2>
+        <p>We've got answers</p>
+        <div className='selectDiv'>
+            <select><option>What is Spotify and Spotify Premium?</option></select>
+        </div>
+        <div className='selectDiv'>
+            <select><option>How do I cancel?</option></select>
+        </div>
+        <div className='selectDiv'>
+            <select><option>How does the Duo and Family plan work?</option></select>
+        </div>
+        <div className='selectDiv'>
+            <select><option>How many devices can I listen to?</option></select>
+        </div>
+        <div className='selectDiv'>
+            <select><option>How does student Plan work?</option></select>
+        </div>
+      </div>
+      <div>
+        <Component6/>
+      </div>
+      </>
+  )
+}
+
+export default Component5
