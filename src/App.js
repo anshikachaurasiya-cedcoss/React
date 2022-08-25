@@ -5,6 +5,7 @@ import Top from './Top';
 import GreetComp from './Components/GreetComp';
 import TopComp from './Components/TopComp';
 import Parent from './Parent';
+import ParentComp from './Components/ParentComp';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <GreetComp name='Anshika'/>
       <TopComp username='Singh'/>
       <Parent/>
+      <ParentComp/>
     </div>
   );
 }
