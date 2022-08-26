@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import Product1Component from './Components/Product1Component'
+
+const products = [{"id":101,"image":"football.png","price":150},
+    {"id":102,"image":"tennis.png","price":120},
+    {"id":103,"image":"basketball.png","price":110},
+    {"id":104,"image":"soccer.png","price":130},
+    {"id":105,"image":"table-tennis.png","price":100}];
+    
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id='upperDiv'>
+        <Product1Component prd={products[0]}/>
+        <Product1Component prd={products[1]}/>
+        <Product1Component prd={products[2]}/>
+      </div>
+      <div id='lowerDiv'>
+        <Product1Component prd={products[3]}/>
+        <Product1Component prd={products[4]}/>
+      </div>
     </div>
   );
 }
