@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import CardComponent from './Component/CardComponent';
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CardComponent color='rgb(48, 48, 240)'  border='1px solid rgb(35, 35, 196)' spanpara='Primary Card Title' />
+      <CardComponent color='grey'  border='1px solid rgb(102, 100, 100)' spanpara='Secondary Card Title'  />
+      <CardComponent color='green' border='1px solid rgb(43, 78, 43)' spanpara='Sucess Card Title' />
+      <CardComponent color='rgb(184, 20, 47)' border='1px solid rgb(223, 64, 91)' spanpara='Danger Card Title' />
     </div>
   );
 }

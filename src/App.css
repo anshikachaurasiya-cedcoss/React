@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 2%;
 }
 
 .App-logo {
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* my editing */
+
+#mainDiv{
+  height: 140px;
+  width: 15%;
+  margin: 0.5%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+  border-radius: 2px;
+}
+#mainDiv span,p{
+  margin: 2%;
+}
+p{
+  font-size: 0.8rem;
+}
+#head{
+  margin: 2%;
+  height: 20%;
+  font-size: 0.8rem;
 }
