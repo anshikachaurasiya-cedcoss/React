@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 export class Task3 extends Component {
+  interval;
     constructor(props) {
       super(props)
     
@@ -9,10 +10,11 @@ export class Task3 extends Component {
       }
     }
     startTimer=()=>{
+      clearInterval(this.interval)
       this.hr=new Date().getHours();
       this.min=new Date().getMinutes();
       this.sec=new Date().getSeconds();
-      setInterval(this.start,1000)
+      this.interval = setInterval(this.start,1000)
     }
     start=()=>{
       if(this.sec>=1){
