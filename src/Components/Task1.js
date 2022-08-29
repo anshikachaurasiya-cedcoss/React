@@ -22,7 +22,7 @@ export class Task1 extends Component {
     render() {
         return (
         <div>
-            <button onClick={this.check} style={{height:'40px',width:'20%',fontSize:'1rem'}}>Clicked {this.state.count} Times</button>
+            <button onClick={this.check} style={{height:'40px',width:'20%',fontSize:'1rem',marginTop:'2%'}}>Clicked {this.state.count} Times</button>
             <p>{this.state.msg}</p>
         </div>
         )
