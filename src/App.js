@@ -3,7 +3,7 @@ import './App.css';
 import Task1 from './Components/Task1';
 import Task2 from './Components/Task2';
 import Task3 from './Components/Task3';
-
+import Task4 from './Components/Task4';
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,8 @@ function App() {
       <Task2/>
       <span>Q3. Create a count down clock that starts on a button click with current time as start and decrements second by second.</span>
       <Task3/>
+      <span>Q4. Create a stop watch.</span>
+      <Task4/>
     </div>
   );
 }
