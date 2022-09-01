@@ -8,15 +8,25 @@ export class ChildComponent extends Component {
         bg:''
       }
     }
-  render() {
+    changeBg=()=>{
         if(this.props.num%2===0){
-            this.bg='red'
+          this.bg='red'
+          this.setState({
+            bg:this.bg
+          })
         }
         else{
-            this.bg='blue'
+          this.bg='blue'
+          this.setState({
+            bg:this.bg
+          })
         }
+      
+    }
+  render() {
     return (
       <div id='enclosingDiv' className={this.bg}>
+        <button id='btn' onClick={this.changeBg}>Change Background</button>
       </div>
     )
   }

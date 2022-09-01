@@ -31,7 +31,7 @@ export class Theme extends Component {
         <>
         Q3. Set the theme as dark, light and party on button click
         <div id='theme' className={this.theme}>
-        <button onClick={this.darkTheme} >Dark Theme</button>
+        <button onClick={this.darkTheme}>Dark Theme</button>
         <button onClick={this.lightTheme}>Light Theme</button>
         <button onClick={this.partyTheme}>Party Theme</button>
       </div>
