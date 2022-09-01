@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+#suggestion{
+  height: 210px;
+  width: 20%;
+  margin: 5%;
+}
+.items{
+  height: 28px;
+}
+input{
+  height: 30px;
+  width: 98%;
+  border: 1px solid blue;
+  font-size: 1.1rem;
+}
