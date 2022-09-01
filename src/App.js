@@ -1,5 +1,6 @@
 import Suggestion from './Suggestion';
 import ParentComponent from './ParentComponent';
+import Theme from './Theme';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Suggestion/>
       <ParentComponent/>
+      <Theme/>
     </div>
   );
 }

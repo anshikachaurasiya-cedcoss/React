@@ -67,3 +67,29 @@ input{
 .blue{
   background-color: skyblue;
 }
+
+/* Q3 */
+
+#theme{
+  height: 400px;
+  width: 50%;
+  border: 2px solid wheat;
+  margin: 5%;
+}
+button{
+  height: 10%;
+  width: 20%;
+  margin: 5%;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+}
+.black{
+  background-color: #282c34
+}
+.light{
+  background-color: skyblue;
+}
+.party{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(96,55,210,1) 0%, rgba(0,189,255,1) 31%, rgba(163,40,200,1) 50%);
+}
