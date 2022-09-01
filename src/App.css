@@ -50,3 +50,20 @@ input{
   border: 1px solid blue;
   font-size: 1.1rem;
 }
+/* Q2 */
+#parentDiv{
+  height: 300px;
+  width: 40%;
+  margin: 5%;
+}
+#enclosingDiv{
+  height: 80%;
+  width: 80%;
+  margin:auto;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: skyblue;
+}
