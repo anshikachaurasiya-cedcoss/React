@@ -15,13 +15,9 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +31,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* my editing */
+
+#emiCalculator{
+  height: 500px;
+  width: 25%;
+  margin: 5%;
+  background-color: white;
+}
+#header{
+  height: 15%;
+  width: 100%;
+  background-color: #357b91;
+  display: flex;
+  flex-direction: row;
+}
+#header img{
+  height: 30%;
+  width: 8%;
+  margin: 5%;
+}
+#header label{
+  margin: 5%;
+}
+#emiBody{
+  height: 82%;
+  width: 94%;
+  margin: 2%;
+}
+input{
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 2%;
+  height: 70%;
+  background-color: white;
+}
+.inputDiv{
+  height: 10%;
+}
+button{
+  margin: 1%;
+  margin-top: 5%;
+  height: 35px;
+  border: none;
+  background-color: #357b91;
+  color: white;
+  border-radius: 3%;
+}
+#emiTable{
+  height: 200px;
+}
+table{
+  height: 80%;
+  margin: 3%;
+  width: 98%;
+}
+.css1{
+  display: none;
+}
+.css2{
+  display: block;
+}
+table,td{
+  border: 1px solid #357b91;
+  border-collapse: collapse;
 }
