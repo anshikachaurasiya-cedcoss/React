@@ -87,6 +87,7 @@
   border: 1px solid black;
   height: 8%;
   justify-content: space-around;
+  overflow: hidden;
 }
 .desi{
   display: flex;
@@ -109,9 +110,16 @@
 }
 form{
   height: 350px;
-  /* background-color: blue; */
 }
 span{
   font-size: 0.7rem;
   color: red;
+}
+@media (max-width:850px){
+  input{
+    width: 40%;
+  }
+  textarea{
+    width: 40%;
+  } 
 }
