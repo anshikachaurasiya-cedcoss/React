@@ -1,0 +1,13 @@
+ arr.map((item)=>{
+                if(item==''){
+                    count++
+                }
+            })
+            if(count>0){
+                mg = 'enter all fields'
+                setE1(mg)
+            }
+            // else{
+            //     setE1('')
+            // }
+            console.log(count)
