@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 let initialValues={afirstname:'',alastname:'',dob:'',detSib:'',ffirstname:'',flastname:'',fQual:'',fphone:'',femail:'',foccu:'',mfirstname:'',mlastname:'',mQual:'',mphone:'',memail:'',moccu:'',addr:''}
 let mg='',count=0
-var letters = /^([A-Z][^\s]*)/,sletters =/^\w+([ \.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,phonenum =/^\d{10}$/;
+var letters = /^([A-Z][^\s]*)/,sletters =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,phonenum =/^\d{10}$/;
 const Form = () => {
     const[e1,setE1]=useState('')
     const[e,setE]=useState({})
@@ -155,7 +155,7 @@ const Form = () => {
                 count=0
             }
             else{
-                initialValues.femail='email should contain 1 special character 1 small & 1 capital alphabet and a number'
+                initialValues.femail='Enter valid email'
                 count++
             }
         }
@@ -175,7 +175,7 @@ const Form = () => {
                 count=0
             }
             else{
-                initialValues.memail='email should contain 1 special character 1 small & 1 capital alphabet and a number'
+                initialValues.memail='Enter valid email'
                 count++
             }
         }
