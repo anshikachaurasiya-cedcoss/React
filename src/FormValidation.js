@@ -20,7 +20,7 @@ const FormValidation = () => {
             setE('')
         }
         else{
-            mg='email should contain no. character and special character'
+            mg='Enter Valid Email'
             setE(mg)
         }
     }
@@ -36,11 +36,11 @@ const FormValidation = () => {
     }
     const addHandler=(event)=>{
         add=event.target.value
-        if(add!==''){
+        if(add.length>4){
             setE('')
         }
         else{
-            mg='must be filled'
+            mg='length of string should greater than 4'
             setE(mg)
         }
     }
