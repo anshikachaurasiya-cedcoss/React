@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -38,119 +39,90 @@
 }
 
 
-
-/* my editing */
-
-
 #web{
-  height: 100vh;
+  height: 500px;
   width: 100%;
-  background-image: url('https://thumbs.dreamstime.com/b/successful-girl-studying-hard-library-casual-stylish-student-wears-glasses-books-education-concept-103399727.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url('https://www.educadd.in/wp-content/uploads/2022/05/8-1.png');
+  background-position: center center;
   background-size: cover;
-  position: relative;
 }
 #nav{
   height: 10%;
-  background-color: #1b1c1d33;
+  background-color: white;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
+select{
+  border: none;
+  color: rgb(171, 168, 168);
+  font-size: 1rem;
+  background-color: white;
+}
 a{
-  margin: 2%;
+  margin: 1.5%;
   text-decoration: none;
-  color: white;
-  font-size: 1.2rem;
+  color: rgb(171, 168, 168);
+  font-size: 1rem;
 }
 #bodyDiv{
   height: 65%;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction:column;
   justify-content: space-between;
+  
 }
-#divLeft{
-  width: 45%;
-  text-align: center;
+#bodyDiv img{
+  width: 40%;
 }
-#divLeft h1{
-  margin-top: 30%;
-  color: white;
+#nav2{
+   width: 100%;
+   height: 14%;
+   background-color: rgb(27, 27, 112);
+   display: flex;
+   flex-direction: row;
+   justify-content: right;
+   align-items: center;
 }
-#divRight{
-  width: 50%;
-  text-align: center;
+#fac{
+  height: 50%;
+  width: 2%;
+  background-color: white;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+  color: rgb(27, 27, 112);
 }
-#form{
-  width: 45%;
-  height: 100%;
+#ins{
+  height: 70%;
+  width: 3%;
+  background-color: #15171c;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 1%;
+}
+#footer{
+  height: 15%;
+  width: 100%;
   background-color: white;
   display: flex;
   flex-direction: column;
+  margin-top: 12%;
 }
-#divRight input{
-  height: 20px;
-  margin-left: 8%;
-  margin-top: 2%;
-  width: 80%;
+#footer a{
+  color: rgb(34, 34, 250);
+  text-decoration: underline;
+  margin-left: 30%;
 }
-#divRight button{
-  height: 40px;
-  width: 70%;
-  margin-left: 15%;
-  background-color: rgb(212, 21, 212);
-  border-radius: 2px;
-  border: none;
-  color: white;
-  font-size: 1rem;
-}
-#divRight span{
-  color: red;
-}
-#check{
-  height: 10%;
-}
-#check input{
-  width: 5%;
-}
-#footer{
-  height: 24.5%;
-  width: 100%;
-  background-color: rgb(182, 181, 181);
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.2%;
-}
-#btn{
-  margin-left: 10%;
-  height: 30%;
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-}
-#btn input{
-  margin: 2%;
-  border-radius: 2px;
-  border: none;
-}
-#btn button{
-  margin: 2%;
-  width: 30%;
-  color: white;
-  background-color: rgb(229, 37, 229);
-  border-radius: 2px;
-  border: none;
-}
-#footer h2{
-  margin-left: 15%;
-}
-#footer span{
-  margin-left: 15%;
-  color: grey;
-}
+
+
+
+
