@@ -43,7 +43,7 @@
 
 
 #web{
-  height: 100vh;
+  height: 500px;
   width: 100%;
   background-image: url('https://thumbs.dreamstime.com/b/successful-girl-studying-hard-library-casual-stylish-student-wears-glasses-books-education-concept-103399727.jpg');
   background-position: center;
@@ -81,6 +81,7 @@ a{
   color: white;
 }
 #divRight{
+  height: 410px;
   width: 50%;
   text-align: center;
   display: flex;
@@ -120,12 +121,12 @@ a{
   width: 5%;
 }
 #footer{
-  height: 24.5%;
+  height: 30%;
   width: 100%;
   background-color: rgb(182, 181, 181);
   display: flex;
   flex-direction: column;
-  margin-top: 0.2%;
+  margin-top: 5%;
 }
 #btn{
   margin-left: 10%;
