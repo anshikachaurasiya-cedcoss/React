@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,120 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#nav{
+  height: 50px;
+  width: 100%;
+  background-color: #282c34;
+}
+#nav span{
+  color: white;
+  font-size: 2rem;
+}
+
+
+#main{
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #dfe7ea;
+}
+
+ #main p{
+  font-size: 15px;
+  word-spacing: 2px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.product{
+  float: left;
+  margin-bottom: 20px;
+  max-width: 280px;
+  padding: 20px;
+  text-align: center;
+ }
+
+.btnCart{
+height: 40px;
+width: 100%;
+font-size: 1.3rem;
+}
+ #products .product .title a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: light;
+  color: #000000;
+ }
+.product img{
+  width: 95%;
+  height: 70%;
+}
+
+/* my editing */
+table{
+  width: 70%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
+  background-color: #3e9cbf;
+}
+input{
+  border: none;
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+#table{
+  height: 100px;
+  width: 80%;
+  background-color: #282c34;
+} 
+.btnDiv{
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btnDiv input{
+  width: 10%;
+}
+.btnDiv button{
+  width: 10%;
+}
+.block{
+  display: block;
+  height: 40px;
+  border: 2px solid black;
+  width: 10%;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  background-color: #3e9cbf;
+}
+.none{
+  display: none;
+}
+#btnDel{
+  height: 30px;
+  width: 30px;
+  font-size: 1.3rem;
+  background-color: #3e9cbf;
+  border: none;
+}
+.btnDes{
+  font-size: 2rem;
+  background-color: #3e9cbf;
+  border: none;
+}
+.num{
+  background-color: #3e9cbf;
 }
