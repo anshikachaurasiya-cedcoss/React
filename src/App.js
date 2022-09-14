@@ -2,6 +2,7 @@ import './App.css';
 import ComponentA from './Components/ComponentA';
 import CurrencyConverter from './Components/CurrencyConverter';
 import ParentComponent from './Components/ParentComponent';
+import TextUtilityApp from './Components/TextUtilityApp';
 import { UserProvider } from './Components/UserContext';
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       <br/>
       <h5>Q3 Make a Currency Converter as shown here</h5>
       <CurrencyConverter/>
+      <br/>
+      <h5>Text Utility App</h5>
+      <TextUtilityApp/>
       </header>
     </div>
   );
