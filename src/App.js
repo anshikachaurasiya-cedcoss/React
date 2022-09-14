@@ -1,5 +1,6 @@
 import './App.css';
 import ComponentA from './Components/ComponentA';
+import CurrencyConverter from './Components/CurrencyConverter';
 import ParentComponent from './Components/ParentComponent';
 import { UserProvider } from './Components/UserContext';
 
@@ -14,6 +15,9 @@ function App() {
       <br/>    
       <h5>Q2. Make a class component named ParentComponent and inside componentDidMount start a timer that console.log a name every 2 seconds. Inside this ParentComponent there is a child functional component called ChildComponent. We don't want to render ChildComponent every time the ParentComponent renders. How will you do this</h5>
       <ParentComponent/>
+      <br/>
+      <h5>Q3 Make a Currency Converter as shown here</h5>
+      <CurrencyConverter/>
       </header>
     </div>
   );

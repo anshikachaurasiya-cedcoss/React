@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+/* my editing */
+
+#container{
+  height: 500px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#converter{
+  height: 80%;
+  width: 40%;
+  background-color: white;
+  border: 5px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.labelDiv{
+  height: 20%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.labelDiv input{
+  height: 45%;
+  margin-top: 2%;
+  width: 96%;
+}
+.labelDiv2{
+  height: 15%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftDiv{
+  height: 90%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+select{
+  border: none;
+  background-color: white;
+  width: 80%;
+}
+.rightDiv{
+  height: 90%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.iconDiv{
+  height: 80%;
+  width: 90%;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+button{
+  height: 12%;
+  width: 80%;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: white;
+}
