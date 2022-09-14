@@ -1,22 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import ComponentA from './Components/ComponentA';
+import { UserProvider } from './Components/UserContext';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h3>Q1. Here is a scenario where the App component has username which it wants to pass to the component D as a prop without passing it through the intermediate components. Make use of Context API to perform this.</h3>
+      <UserProvider value='Anshika'>
+        <ComponentA/>
+      </UserProvider>
+     
       </header>
     </div>
   );
