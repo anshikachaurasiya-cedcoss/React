@@ -1,6 +1,7 @@
 import './App.css';
 import ComponentA from './Components/ComponentA';
 import CurrencyConverter from './Components/CurrencyConverter';
+import NumWords from './Components/NumWords';
 import ParentComponent from './Components/ParentComponent';
 import TextUtilityApp from './Components/TextUtilityApp';
 import { UserProvider } from './Components/UserContext';
@@ -22,6 +23,9 @@ function App() {
       <br/>
       <h5>Text Utility App</h5>
       <TextUtilityApp/>
+      <br/>
+      <h5>Number to Word</h5>
+      <NumWords/>
       </header>
     </div>
   );
