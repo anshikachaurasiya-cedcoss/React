@@ -1,38 +1,298 @@
 .App {
   text-align: center;
+  height: auto;
+  background-color: antiquewhite;
+
+}
+.main{
+  height: 100vh;
+}
+#nav{
+  height: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(218, 165, 32);
+}
+#searchDiv img{
+  height: 80px;
+  width: 10%;
+  margin-left: 2%;
+}
+#optionDiv{
+  height: 98%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+}
+#optionDiv a{
+  margin: 1%;
+  font-family: Impact, Haettenschweiler;
+  font-size: 1.2rem;
+  color: rgb(218, 165, 32);
+  text-decoration: none;
+}
+#iconDiv{
+  height: 98%;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-right:1% ;
+  justify-content: center;
+  align-items: center;
+}
+#iconDiv span{
+  margin: 6%;
+  font-family: Impact, Haettenschweiler;
+  font-size: 1.2rem;
+}
+#searchDiv{
+  height: 10%;
+  margin-top: 0.5%;
+  display: flex;
+  flex-direction: row;
+}
+#search{
+  height: 90%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+#search input{
+  height: 60%;
+  width: 70%;
+  border: none;
+  background-color: antiquewhite;
+}
+#search button{
+  height: 63%;
+  width: 80px;
+  border: none;
+  background-color: antiquewhite;
+}
+#search i{
+  margin-left: 1%;
+  color: rgb(218, 165, 32);
+}
+#cartIcon{
+  height: 90%;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 22%;
+}
+#cartIcon i{
+  margin: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.slider{
+  overflow: hidden;
+  height: 530px;
+  margin-top: 1%;
+}
+.slider div{
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+.slider img{
+  width: 100%;
+  float: left;
+  height: 100%;
+}
+.slider{
+  position: relative;
+  width: 500%;
+  margin: 0px;
+  left: 0;
+  animation: 20s slideImage infinite;
+}
+@keyframes slideImage{
+  0%{
+    left: 0%;
   }
+  10%{
+    left: 0%;
+  }
+  12%{
+    left: -100%;
+  }
+  22%{
+    left: -100%;
+  }
+  24%{
+    left: -200%;
+  }
+  34%{
+    left: -200%;
+  }
+  36%{
+    left: -300%;
+  }
+  46%{
+    left: -300%;
+  }
+  48%{
+    left: -400%;
+  }
+  58%{
+    left: -400%;
+  }
+  60%{
+    left: -300%;
+  }
+  70%{
+    left: -300%;
+  }
+  72%{
+    left: -200%;
+  }
+  82%{
+    left: -200%;
+  }
+  84%{
+    left: -100%;
+  }
+  94%{
+    left: -100%;
+  }
+  96%{
+    left: 0%;
+  }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.items{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(290px,1fr));
+  gap: 24px;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+  padding: 4% 0;
+}
+
+
+.item{
+  height: 300px;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: grab;
+  background-color: white;
+}
+.item>img{
+  width: 100%;
+  height: 70%;
+  border-radius: 5px;
+}
+.itemDetails{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 70px;
+  width: 100%;
+  justify-content: space-around;
+}
+#pName{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+#pCuisine{
+  color: black;
+  font-size: 16px;
+  margin: 0 0 2px 0;
+}
+#pPlace{
+  color: black;
+  font-size: 18px;
+  margin: 0 0 2px 0;
+}
+
+
+.bodyDiv{
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+#sweetPage{
+  height: 100vh;
+  background-color: aquamarine;
+}
+#sweetImg{
+  height: 450px;
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+}
+#sweetContent{
+  height: 100%;
+  width: 40%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+}
+#sweetBtn{
+  height: 20%;
+  width: 90%;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+#aboutContent{
+  height: 500px;
+  background-color: rgb(245, 230, 210);
+  width: 80%;
+  margin: 5%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#aboutContent p{
+  margin: 2%;
+}
+#contactContent{
+  height: 570px;
+  /* background-color: rgb(245, 230, 210); */
+  width: 80%;
+  margin: 1%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+#cContent{
+  height: 86%;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 10%;
+}
+.contacts{
+  height: 80%;
+  width: 40%;
+  background-color: antiquewhite;
+  margin: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
 }
