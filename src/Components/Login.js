@@ -31,9 +31,6 @@ export class Login extends Component {
           this.setState({
             message:'Signup Succesfully',
             text:'Log In',
-            // nameIn:'',
-            // contactIn:'',
-            // passwordIn:'',
             display:'none'
           })
         }
@@ -85,9 +82,3 @@ export class Login extends Component {
 }
 
 export default Login
-
-
-
-
-
-

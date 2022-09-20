@@ -1,5 +1,4 @@
 
-
 .App {
   text-align: center;
 }
@@ -45,7 +44,7 @@
 
 
 #douter{
-  height: 600px;
+  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -208,6 +207,64 @@ input{
 }
 
 
+.details{
+  height: 100vh;
+  background-color: #f929098f;
+}
 
 
-
+#sweetImg{
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  background-color: white;
+  border-radius: 10px;
+}
+#sweetImg button{
+  width: 10%;
+  height: 30px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.imgDiv{
+  height: 280px;
+  width: 35%;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+#sweetImg img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+}
+#imgContent{
+  height: 900px;
+  width: 90%;
+  margin-top: 2%;
+}
+#operatingDiv{
+  height: 16%;
+}
+#reviewDiv{
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+}
+#reviewSpan{
+  height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1%;
+}
+#reviewSpan span{
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 400;
+}

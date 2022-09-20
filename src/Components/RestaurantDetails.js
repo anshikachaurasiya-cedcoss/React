@@ -431,7 +431,7 @@ const RestaurantDetails = () => {
     <input id='searchInp' placeholder='Search Items'/>
     <button onClick={clickHandler}>Search</button>
 </div>
-<Restaurant match={match}/>
+<Restaurant match={match} restaurants={restaurants}/>
     </>
   )
 }
