@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import sweet1 from './/sweets.png' 
 const Login = (props) => {
   return (
     <div id="douter">
@@ -14,6 +14,8 @@ const Login = (props) => {
             <button onClick={props.login}>Log In</button>
         </div>
         <Link to='/'>SignUp</Link>
+    </div>
+    <div id='sweetImg1'>
     </div>
 </div>
   )

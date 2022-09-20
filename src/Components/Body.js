@@ -6,6 +6,7 @@ const Body = (props) => {
   var[arrInd,setArrInd]=useState([])
   var[flg,setFlg]=useState(true)
   const divHandler=(e)=>{
+    
     ind = e.target.parentElement.getAttribute('ind')
     arrInd.push(props.sweets[ind])
     setArrInd([...arrInd])
@@ -18,7 +19,8 @@ const Body = (props) => {
     <div className='items'>
       <div className='list'>
         {props.match.map((records,i)=>{
-          return (<div className='item' ind={i} onClick={divHandler}>
+          return (
+          <div className='item' ind={i} onClick={divHandler}>
               <img alt='' src={records.image}/>
               <div className='itemDetails'>
                 <p id='pName'>{records.name}</p>
@@ -31,7 +33,7 @@ const Body = (props) => {
                   <span class="fa fa-star checked"></span>
                 </p>
               </div>
-            </div>
+           </div>
           )
          
         })}

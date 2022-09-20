@@ -5,7 +5,6 @@ import AboutUs from './Components/AboutUs';
 import Login from './Components/Login';
 import MainPage from './Components/MainPage';
 import SignUp from './Components/SignUp';
-import SweetPage from './Components/SweetPage';
 import ContactUs from './Components/ContactUs';
 
 function App() {

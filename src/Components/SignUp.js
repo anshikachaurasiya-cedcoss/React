@@ -18,6 +18,8 @@ const SignUp = (props) => {
             </div>
             <Link to='/login'>Login</Link>
         </div>
+        <div id='sweetImg1'>
+    </div>
     </div>
   )
 }
