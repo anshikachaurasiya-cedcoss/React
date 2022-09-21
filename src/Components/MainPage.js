@@ -46,10 +46,6 @@ const MainPage = () => {
                 <input id='searchInp' />
                 <button onClick={clickHandler}>Search</button>
             </div>
-            {/* <div id='cartIcon'>
-            <i class="fa fa-heart" style={{fontSize:"24px",color:'rgb(218, 165, 32)'}}></i>
-            <i class="fa fa-shopping-cart" style={{fontSize:"24px",color:'rgb(218, 165, 32)'}}></i>
-            </div> */}
         </div>
         <Banner/>
     </div>

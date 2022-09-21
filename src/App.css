@@ -413,3 +413,19 @@ table, th, td{
   display: flex;
   flex-direction: row;
 }
+#backBtn{
+  height: 4%;
+  width: 5%;
+  background-color: bisque;
+  margin-left: 90%;
+  border: 1px solid rgb(218, 165, 32);
+  border-radius: 2px;
+  color: rgb(218, 165, 32) ;
+}
+#delBtn{
+  height: 15%;
+  background-color: antiquewhite;
+  border: none;
+  color: rgb(218, 165, 32);
+  font-size: 1.3rem;
+}

@@ -2,16 +2,21 @@ import React, { useState } from 'react'
 import SweetPage from './SweetPage'
 
 const Body = (props) => {
-  var ind =''
-  var[arrInd,setArrInd]=useState([])
+  var ind ='',newAr={}
+  var[arrInd,setArrInd]=useState(newAr)
+  var[id,setId]=useState()
   var[flg,setFlg]=useState(true)
   const divHandler=(e)=>{
-    
+    setFlg(true)
+    newAr={}
     ind = e.target.parentElement.getAttribute('ind')
-    arrInd.push(props.sweets[ind])
-    setArrInd([...arrInd])
-    flg=false
-    setFlg(flg)
+    newAr=props.sweets[ind]
+    setArrInd({...newAr})
+    setFlg(false)
+  }
+  const backHandler=()=>{
+    setFlg(true)
+    setId('items')
   }
   
   if(flg){
@@ -44,7 +49,7 @@ const Body = (props) => {
   else
   {
     return(  
-      <SweetPage arr={arrInd}/>
+      <SweetPage arr={arrInd} btn={backHandler}/>
     )
   }
 }

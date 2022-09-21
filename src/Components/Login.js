@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import sweet1 from './/sweets.png' 
 const Login = (props) => {
   return (
     <div id="douter">
