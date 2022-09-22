@@ -1,18 +1,19 @@
-
 import React from 'react'
 
 const Nav = () => {
   return (
     <div className='nav'>
         <div className='navLeft'>
-            <span>SCIENCE</span>
+            <span>APPTIO</span>
         </div>
         <div className='navRight'>
-            <span>HOME</span>
-            <span>ABOUT US</span>
-            <span>SERVICE</span>
-            <span>CONTACT</span>
-            <button>LOG IN</button>
+            <span>Solutions</span>
+            <span>Products</span>
+            <span>Resources</span>
+            <span>Company</span>
+            <button>Get Started</button>
+            <i class="fa fa-search"></i>
+            <span>Search</span>
         </div>
     </div>
   )
