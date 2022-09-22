@@ -1,45 +1,34 @@
 import React from 'react'
 
 const Blog = (props) => {
-    console.log(props.arr2)
+ 
   return (
-    <div id='blog'>
-        <div className='blog1'>
-            <div>
-                <h1>Create your own blog</h1>
-                <p>lorem hjsahs hgagsas jhgdd jhdgsd jhgdsad jhger jkfdhfsd jhsds ikvkjcvc jkfhf</p>
-                <button>Create Blog</button>
-            </div>
-            <img src='blog1.png' alt=''/>
-        </div>
-        <h1>Blog</h1>
-        <div className='items'>
+  <div id='blog'>
+    <div className='blog1'>
+      <div>
+        <h1>Create your own blog</h1>
+        <p>My informal writing style is a political choice, because I want feminism to be more accessible.</p>
+        <input type='text' placeholder='Enter Blog Heading' ref={props.text}/>
+        <textarea rows='6' columns='15' placeholder='Enter Your Blog Here' ref={props.blog}/>
+        <button onClick={props.add}>Add Blog</button>
+      </div>
+      <img src='blog1.png' alt=''/>
+    </div> 
+    <h1>Blog</h1>
+    <div className='items'>
       <div className='list'>
         {props.arr.map((records,i)=>{
           return (
           <div className='item' ind={i}>
-              <img alt='' src={records.photograph}/>
-              <div className='itemDetails'>
-                <p id='pName'>{records.name}</p>
-                <p id='pPlace' style={{color:'yellow'}}>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                </p>
-              </div>
-              {props.arr2.map((item)=>{
-           return <p>{item.comments}</p>
-        })}
-           </div>
+            <img alt='' src='7.jpeg'/>
+            <p id='pName'>{records.name}</p>
+            <p id='comment'>{records.comments}</p>
+          </div>
           )
-         
         })}
-        
       </div>
     </div>
-    </div>
+  </div>
   )
 }
 
