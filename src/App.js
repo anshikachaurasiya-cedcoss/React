@@ -1,10 +1,10 @@
 import React from 'react'
-import ColorPickerGfg from './Components/ColorPickerGfg'
+import Form from './Components/Form'
 
 const App = () => {
   return (
-    <div>
-      <ColorPickerGfg/>
+    <div className='App'>
+      <Form/>
     </div>
   )
 }
