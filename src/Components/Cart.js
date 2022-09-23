@@ -1,7 +1,9 @@
 import React, {  useState } from "react"
 
 const Cart = (props) => {
-  var quant = props.arr[0].quantity
+  console.log(props.arr)
+  var quant = props.arr.quantity
+  console.log(quant)
   var [val,setVal]=useState(quant)
   const plusHandler=(e)=>{
     var valInp = e.target.getAttribute('value')
@@ -17,14 +19,15 @@ const Cart = (props) => {
   }
    
   return (
-  <>
+  <> 
   <button onClick={props.btn} id='backBtn'>Back</button>
   <div id="cartDiv">
     <table id='tbl'>
-        <tr><th>Image</th><th>Name</th><th>Price</th><th>Quantity</th></tr>
-      {props.arr.map((item,i)=>{
+        <tr><th>Id</th><th>Image</th><th>Name</th><th>Price</th><th>Quantity</th></tr>
+      {Object.keys(props.arr).map((item,i)=>{
         return (
         <tr ind={i}>
+          <td>{item.id}</td>
           <td><img src={item.image} alt=''/></td>
           <td>{item.name}</td>
           <td>{item.price}</td>
