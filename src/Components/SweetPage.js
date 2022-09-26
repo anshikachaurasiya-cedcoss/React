@@ -1,15 +1,17 @@
+
 import React from 'react'
 import Cart from './Cart'
 
 const SweetPage = (props) => {
-    if(props.flag){
+    console.log(props.flg)
+    if(props.flg===false){
     return (
     <>
     <div className='main'>
         <div id='nav' style={{justifyContent:'flex-end'}}>
             <div id='cartIcon'>
                 <i class="fa fa-heart" style={{fontSize:"24px",color:'dodgerblue'}}></i>
-                <i onClick={props.cart} class="fa fa-shopping-cart" style={{fontSize:"24px",color:'dodgerblue'}}></i>
+                <i onClick={props.Cart} class="fa fa-shopping-cart" style={{fontSize:"24px",color:'dodgerblue'}}></i>
             </div>
         </div>
         <button onClick={props.btn} id='backBtn'>Back</button>
@@ -34,7 +36,7 @@ const SweetPage = (props) => {
     else{
     return(
         <div className='main'>
-            <Cart arr={props.match} btn={props.btn}  />
+            <Cart arr={props.cart} btn={props.btn}  />
         </div>         
     )
 }

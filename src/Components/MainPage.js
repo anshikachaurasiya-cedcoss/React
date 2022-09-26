@@ -17,7 +17,7 @@ const MainPage = () => {
     ]
     var inp='', matched=[] ,newAr=[],ind=''
     const [match,setMatch]=useState(sweets)
-    const[cart,setCart]=useState(newAr)
+    const[cart,setCart]=useState([])
     var[flg,setFlg]=useState(true)
     var[id,setId]=useState()
     
@@ -31,11 +31,11 @@ const MainPage = () => {
         setMatch([...matched])
     }
 
-    const divHandler=(sign,index)=>{    
+    const divHandler=(index)=>{    
         ind =index
         newAr.push(match[ind-1])
         setMatch([...newAr])
-        setFlg(sign)
+        setFlg(false)
     }
     
     const flag=(sign)=>{
@@ -43,32 +43,32 @@ const MainPage = () => {
     }
     
     const addHandler=(event)=>{
-        let index=0;
+        let index='';
         var val = event.target.getAttribute('val')
-        console.log(val)
         for(var i=0;i<match.length;i++){
             if(match[i].id==val){
-                index=i;
+                index=i
             }
         }
-        for(var j=0;j<=newAr.length;j++){
-            if(newAr[j]==match[index]){
-                newAr[j].quantity++
-                console.log(newAr)
+        for(var j=0;j<cart.length;j++){
+            if(cart[j]==match[index]){
+                cart[j].quantity++
             }
             else{
-                newAr.push(match[index])
-            }            
-        }        
+                cart.push(match[index])
+            }
+        }
+        setCart([cart])
         alert('Sucessfully added to cart')
     } 
 
-    const cartHandler=()=>{
-        if(newAr.length==0){
+    const cartHandler=(sign)=>{
+        if(cart.length==0){
             alert('Cart is Empty')
             return 
         }
         setFlg(false) 
+        console.log(flg)
     }
 
     const backHandler=()=>{
@@ -101,9 +101,10 @@ const MainPage = () => {
         <i class="fa fa-thumbs-up"></i>
         </marquee>
     </div>
-    <Body match={match} flag={flag} sweets={sweets} div={divHandler} flg={flg} add={addHandler} cart={cartHandler} back={backHandler}/>
+    <Body match={match} cart={cart} Cart={cartHandler} flag={flag} sweets={sweets} div={divHandler} flg={flg} add={addHandler} back={backHandler}/>
     </>
   )
 }
 
 export default MainPage
+
