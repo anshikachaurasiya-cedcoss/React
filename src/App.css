@@ -29,3 +29,9 @@
   width: 15%;
   font-size: 1.2rem;
 }
+#task3{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
