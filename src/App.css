@@ -35,3 +35,7 @@
   display: flex;
   justify-content: center;
 }
+#task4{
+  height: 100px;
+  width: 100%;
+}
