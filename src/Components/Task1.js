@@ -8,7 +8,6 @@ const Task1 = () => {
     }
   return (
     <div id='task1'>
-        <h3>Q1. Create a Button that counts no of clicks and displays on button itself</h3>
         <button onClick={counter} value={count}>No. of Clicks ={count}</button>
     </div>
   )
