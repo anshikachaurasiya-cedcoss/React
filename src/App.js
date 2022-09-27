@@ -4,6 +4,7 @@ import Task1 from './Components/Task1';
 import Task2 from './Components/Task2';
 import Task4 from './Components/Task4';
 import Task5A from './Components/Task5A';
+import Task6 from './Components/Task6';
 import Task8 from './Components/Task8';
 import Task3 from './Task3';
 
@@ -38,6 +39,9 @@ function App() {
       <hr/>
       <h3>Q8. Create a ToDo list based on template provided.     Conditions: add/delete/update todo mark complete todo list completed and pending todos in different group as in template once use click edit todo, value should populate in top todo form and ADD button should change to UPDATE button.</h3>
       <Task8/>
+      <hr/>
+      <h3>Q6. Make a functional component Parent that has two buttons 'increment 1' and 'increment 2'. Both on click, increment count by one. Along with the value of count, it also displays Odd or Even as per the value of count. Now add a loop inside the event handler of increment 1. This loop loops over a big number like 2000000000 just to introduce delay. Now, if you click on first button the delay in display is obvious but on clicking button 2 it is still there but it should not be there. So find a solution for this.</h3>
+      <Task6/>
     </div>
   );
 }
