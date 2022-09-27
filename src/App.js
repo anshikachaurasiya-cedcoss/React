@@ -4,6 +4,7 @@ import Task1 from './Components/Task1';
 import Task2 from './Components/Task2';
 import Task4 from './Components/Task4';
 import Task5A from './Components/Task5A';
+import Task8 from './Components/Task8';
 import Task3 from './Task3';
 
 export const UserContext=React.createContext()
@@ -35,6 +36,8 @@ function App() {
       <Task5A/>
       </CurrencyContext.Provider>
       <hr/>
+      <h3>Q8. Create a ToDo list based on template provided.     Conditions: add/delete/update todo mark complete todo list completed and pending todos in different group as in template once use click edit todo, value should populate in top todo form and ADD button should change to UPDATE button.</h3>
+      <Task8/>
     </div>
   );
 }
