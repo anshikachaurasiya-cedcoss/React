@@ -1,12 +1,21 @@
-
 import React from 'react'
-import Cart from './Cart'
+import { Link } from 'react-router-dom'
 
 const SweetPage = (props) => {
-    console.log(props.flg)
-    if(props.flg===false){
+    
     return (
     <>
+    <div id='nav'>
+    <div id='optionDiv'>
+      <Link to='/home'>Home</Link>
+      <Link to='/about'>About Us</Link>
+      <Link to='/contact'>Contact Us</Link>
+    </div>
+    <div id='iconDiv'>
+      <img src='iconToy.png' alt=''/>
+      <span>Hello, User</span>|<span>Accounts and Details</span>
+    </div>
+    </div>   
     <div className='main'>
         <div id='nav' style={{justifyContent:'flex-end'}}>
             <div id='cartIcon'>
@@ -14,7 +23,6 @@ const SweetPage = (props) => {
                 <i onClick={props.Cart} class="fa fa-shopping-cart" style={{fontSize:"24px",color:'dodgerblue'}}></i>
             </div>
         </div>
-        <button onClick={props.btn} id='backBtn'>Back</button>
         {props.match.map((item)=>{
             return(
             <div id='sweetImg'>
@@ -32,14 +40,6 @@ const SweetPage = (props) => {
     </div>
     </>
     )
-    }
-    else{
-    return(
-        <div className='main'>
-            <Cart arr={props.cart} btn={props.btn}  />
-        </div>         
-    )
-}
 }
 
 export default SweetPage

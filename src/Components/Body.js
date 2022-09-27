@@ -1,11 +1,8 @@
-
 import React  from 'react'
-import SweetPage from './SweetPage'
-
+ 
 const Body = (props) => {
-  console.log(props.flg)
-  if(props.flg){
-    return(
+  
+  return(
     <div className='items'>
       <div className='list'>
         {props.match.map((records,i)=>{
@@ -29,12 +26,6 @@ const Body = (props) => {
       </div>
     </div>    
     )
-  }
-  else{
-    return(
-    <SweetPage flag={props.flag} cart={props.cart} Cart={props.Cart} flg={props.flg} match={props.match} add={props.add}  btn={props.back} />
-    )
-  }  
 }
 
 export default Body
