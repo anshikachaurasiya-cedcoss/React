@@ -5,6 +5,8 @@ import Task2 from './Components/Task2';
 import Task4 from './Components/Task4';
 import Task5A from './Components/Task5A';
 import Task6 from './Components/Task6';
+import Task7 from './Components/Task7';
+import Task7CallBack from './Components/Task7CallBack';
 import Task8 from './Components/Task8';
 import Task3 from './Task3';
 
@@ -42,6 +44,11 @@ function App() {
       <hr/>
       <h3>Q6. Make a functional component Parent that has two buttons 'increment 1' and 'increment 2'. Both on click, increment count by one. Along with the value of count, it also displays Odd or Even as per the value of count. Now add a loop inside the event handler of increment 1. This loop loops over a big number like 2000000000 just to introduce delay. Now, if you click on first button the delay in display is obvious but on clicking button 2 it is still there but it should not be there. So find a solution for this.</h3>
       <Task6/>
+      <hr/>
+      <h3>Q7. a. Create the app as shown using useMemo hook. On changing the number inside the textbox, the number and its next two successors must be printed. On click of Toggle theme, the theme must change.        b. Create the same app using useCallback hook.</h3>
+      <Task7/>
+      <hr/>
+      <Task7CallBack/>
     </div>
   );
 }
