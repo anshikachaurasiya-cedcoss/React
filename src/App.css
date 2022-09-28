@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.items{
+  margin: 10px auto !important;
+  max-width: 55% !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item{
+  border-radius: 7px;
+  border-top: 1px solid #00000042;
+  border-right: 1px solid #00000042;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: -3px 3px #00000042;
+  overflow: hidden;
+  padding: 0 0 0 1%;
+  background-color: rgba(151, 110, 223, 0.37);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.itemImg{
+  height: 100%;
+  width: 40%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.itemContent{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  height: 80%;
+  padding: 2px !important;
 }
-
-.App-link {
-  color: #61dafb;
+.btnAdd{
+  border: 2px solid goldenrod !important;
+  color: rgb(82, 121, 207) !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  height: 30px;
+  width: 125px;
+  font-weight: 600;
+  z-index: 0 !important;
+  background-color: #f1be628a !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vegIconPara{
+  display: flex;
+}
+.vegIcon{
+  height: 20px;
+  width: 20px;
+}
+.smallPara{
+  font-size: 14px !important;
 }
