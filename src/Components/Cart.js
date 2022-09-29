@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 const Cart = (props) => {
+  let Grandtotal=0
   return (
   <>
  <div id='nav'>
@@ -51,8 +52,9 @@ const Cart = (props) => {
         </div>   
   <div id="cartDiv">
     <table id='tbl'>
-        <tr><th>Id</th><th>Image</th><th>Name</th><th>Price</th><th>Quantity</th></tr>
+        <tr><th>Id</th><th>Image</th><th>Name</th><th>Price</th><th>Quantity</th><th>Total</th></tr>
       {props.arr.map((item,i)=>{
+        Grandtotal+=item.quantity*item.price
         return (
         <tr ind={i}>
           <td>{item.id}</td> 
@@ -64,11 +66,13 @@ const Cart = (props) => {
             <p style={{width:'40px'}}>{item.quantity}</p>
             <button onClick={props.plus} ind={i} value={item.quantity} style={{width:'20%',height:'40px',fontSize:'2rem',border:'none',backgroundColor:'orange'}}>+</button>
           </td>
+          <td>{item.quantity*item.price}</td>
         </tr>
         )
       })}
     </table>
-    <img src="des1.png" alt="" style={{marginTop:'5%'}}/>
+    <strong style={{fontSize:'1.8rem'}} id='tot'>{Grandtotal}</strong><br/>
+    <button id="pay" onClick={props.pay}>Proceed To Buy</button>
   </div>
   </>
   )

@@ -28,8 +28,10 @@ const MainPage = (props) => {
                     <label style={{fontSize:'10px'}}>Returns</label>
                     <label>& Orders</label>
                 </div>
-                <i class="fa fa-shopping-cart" style={{fontSize:"30px",margin:'1%'}}></i>
+                <div onClick={props.Cart}>
+                <i class="fa fa-shopping-cart" style={{fontSize:"30px",margin:'1%'}}  ></i>
                 <label style={{marginTop:'2%'}}>Cart</label>
+                </div>
         </div>
         <div id='nav_nav2'>
         <i class="fa fa-bars" style={{fontSize:"24px",marginLeft:'1%',marginTop:'0.5%'}}></i>

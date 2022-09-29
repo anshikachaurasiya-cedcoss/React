@@ -1,9 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const SweetPage = (props) => {
-    
-    return (
+const Payment = (props) => {
+    const myDetails=[{name:'Anshika',card:'1234567',exp:'07/23',cvv:'123'}]
+    const nameInp = React.createRef()
+    const cardInp = React.createRef()
+    const expInp = React.createRef()
+    const cvvInp = React.createRef()
+    var[msg,setMsg]=useState('')
+    var[css,setCss]=useState('')
+
+    const payHandler=()=>{
+        if(myDetails[0].name==nameInp.current.value && myDetails[0].card==cardInp.current.value && myDetails[0].exp==expInp.current.value && myDetails[0].cvv==cvvInp.current.value){
+            setMsg('Payment Completed Successfully!!')
+            setCss('green')
+            nameInp.current.value=''
+            cardInp.current.value=''
+            cvvInp.current.value=''
+            expInp.current.value=''
+            document.getElementById('h').innerHTML='Paid'
+        }
+        else{
+            setMsg('Payment Failed!')
+            setCss('red')
+        }
+    }
+  return (
     <>
     <div id='nav'>
             <Link to='/home'>
@@ -27,10 +49,8 @@ const SweetPage = (props) => {
                     <label style={{fontSize:'10px'}}>Returns</label>
                     <label>& Orders</label>
                 </div>
-                <div onClick={props.Cart}>
-                <i class="fa fa-shopping-cart" style={{fontSize:"30px",margin:'1%'}}  ></i>
+                <i class="fa fa-shopping-cart" style={{fontSize:"30px",margin:'1%'}}></i>
                 <label style={{marginTop:'2%'}}>Cart</label>
-                </div>
         </div>
         <div id='nav_nav2'>
         <i class="fa fa-bars" style={{fontSize:"24px",marginLeft:'1%',marginTop:'0.5%'}}></i>
@@ -51,38 +71,47 @@ const SweetPage = (props) => {
         <label>Computers</label>
         <label>Amazon Pay</label>
         <label>Coupons</label>
-        </div>   
-    <div className='main'>
-        <div id='nav' style={{justifyContent:'flex-end'}}>
-        </div>
-        {props.match.map((item)=>{
-            return(
-            <div id='sweetImg'>
-                <img src={item.image} alt=''/>
-                <div id='sweetContent'>
-                    <span>{item.name}</span>
-                    <span>{item.price}</span>
-                    <p>{item.describe}</p>
-                    <button id='cart' onClick={props.add} val={item.id}>Add to cart</button>
+        </div> 
+        <div id='msg' className={css}>{msg}</div>
+        <div id='payment'>
+            <div id='leftPayment'>
+                <div id="payForm">
                     <div>
-                        <label style={{color:'red'}}>Save Extra</label>&nbsp;
-                        <label>with 4 offers</label><br/>
-                        <label style={{color:'red'}}>Cashback (3):</label>&nbsp;
-                        <label>Amazon Pay Reward: Get ₹400 cashback as </label>
-                        <label>Amazon Pay balance on minimum order of ₹4,000 in…</label>
+                        <label>Card Holder's Name:</label>
+                        <input type='text' ref={nameInp}/>
                     </div>
-                    <div id='imgDiv'>
+                    <div>
+                        <label>Card Number:</label>
+                        <input type='number' ref={cardInp}/>
+                    </div>
+                    <div>
+                        <label>Expiry Date:</label>
+                        <input type='text' ref={expInp}/>
+                    </div>
+                    <div>
+                        <label>CVV:</label>
+                        <input type='number' ref={cvvInp}/>
+                    </div>
+                    <button id='conPay' onClick={payHandler}>Make Payment</button>
+                    <div>
                         <img src='https://images-na.ssl-images-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-returns._CB484059092_.png' alt=''/>
                         <img src='https://images-na.ssl-images-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/trust_icon_free_shipping_81px._CB630870460_.png' alt=''/>
+                        <img src='https://images-na.ssl-images-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-amazon-delivered._CB485933725_.png' alt=''/>
                         <img src='https://images-na.ssl-images-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/No_contact_delivery_final._CB432269791_.png' alt=''/>
-                    </div>
-                </div> 
+                    </div>                    
+                </div>
             </div>
-            )
-        })}
-    </div>
+            <div id='rightPayment'>
+                <div id='upperDiv'>
+                    <h1 id='h'>Total: ₹{props.tot}</h1>
+                </div>
+                <div id='lowerDiv'>
+                    <img src='https://www.paisabazaar.com/wp-content/uploads/2018/08/SBI-EMV-Chip.jpg' alt=''/>
+                </div>
+            </div>
+        </div>
     </>
-    )
+  )
 }
 
-export default SweetPage
+export default Payment
