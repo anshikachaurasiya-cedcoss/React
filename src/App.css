@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#nav{
+  height: 50px;
+  width: 100%;
+  background-color: #282c34;
+}
+#nav span{
+  color: white;
+  font-size: 2rem;
+}
+#main{
+  height: 250px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.product{
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ }
+
+.btnCart{
+height: 40px;
+width: 70%;
+font-size: 1.3rem;
+}
+ #products .product .title a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: light;
+  color: #000000;
+ }
+.product img{
+  width: 50%;
+  height: 50%;
+}
+
+/* my editing */
+table{
+  width: 98%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  background-color: rgb(240, 234, 234);
+}
+input{
+  border: none;
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+#table{
+  height: 100px;
+  width: 80%;
+} 
+.btnDiv{
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btnDiv input{
+  width: 10%;
+}
+.btnDiv button{
+  width: 10%;
+}
+.block{
+  display: block;
+  height: 40px;
+  border: 2px solid black;
+  width: 10%;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  background-color: rgb(231, 227, 227);
+  margin: 2%;
+}
+.none{
+  display: none;
+}
+#btnDel{
+  height: 30px;
+  width: 30px;
+  font-size: 1.3rem;
+  border: none;
+}
+.btnDes{
+  font-size: 2rem;
+  border: none;
+}
+.num{
+  background-color: rgb(240, 234, 234);
+}
+#tbl img{
+  height: 30%;
+  width: 20%;
+}
