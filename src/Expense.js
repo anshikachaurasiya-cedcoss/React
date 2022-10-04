@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 var sel=['Groceries','Veggies','Travelling','Miscellaneous'],sel2=['Expense','Income'],grocery=[],veggies=[],travel=[],misc=[],optVal='',ind='',sum=0
 
 const Expense = () => {
@@ -7,6 +7,7 @@ const Expense = () => {
   const [Travelling,setTravelling]=useState(travel)
   const [Miscllaneous,setMiscllaneous]=useState(misc)
   const [btnVal,setBtnval]=useState('Add Transaction')
+  var inpValAmount=useRef(''),inpValText=useRef('')
   
   // select function
   const opHandler=(event)=>{
@@ -17,8 +18,8 @@ const Expense = () => {
     event.preventDefault()
     let Obj={},sum=0;
     let select2 =document.getElementById('sel2').selectedIndex    
-    let txt = document.getElementById('text').value
-    let amt = document.getElementById('amount').value
+    let txt = inpValText.current.value
+    let amt = inpValAmount.current.value
     if(btnVal==='Add Transaction'){
       if(select2===1){
         if(txt!=='' && amt!==''){
@@ -259,11 +260,11 @@ const Expense = () => {
                 {sel.map((item)=> <option value={item}>{item}</option>)}
             </select><br/>
             <label for="amount">Text</label>
-            <input type="text" id="text" placeholder="Selected Categories Text..."/>
+            <input type="text" id="text" placeholder="Selected Categories Text..." ref={inpValText}/>
         </div>
         <div>
           <label for="amount">Amount</label>
-          <input type="number" id="amount" placeholder="Enter amount..."/>
+          <input type="number" id="amount" placeholder="Enter amount..." ref={inpValAmount}/>
           <select id='sel2'>
             <option>Select</option>
             {sel2.map((item)=> <option>{item}</option>)}
