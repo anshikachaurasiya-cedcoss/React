@@ -25,11 +25,55 @@ const Navbar = (props) => {
             <div class="dropdown">
                 <button class="dropbtn">Resources</button>
                 <div class="dropdown-content">
-                    <a>HR Software</a>
-                    <a>Payroll Software</a>
-                    <a>Leave Management</a>
-                    <a>Attendance Management</a>
-                    <a>Employee Self Service</a>
+                    <div className='hover_div2'>
+                        <div className='hover2_innerDiv'>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/Resource%20Library.png' alt=''/>
+                                <label><Link to='/resourcelibrary'>Resource Library</Link></label>
+                            </div>
+                            <div><label><Link to='/blog'>Blogs</Link></label></div>
+                            <div><label><Link to='/guide'>Guides</Link></label></div>
+                            <div><label>Templates</label></div>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/webinars.png' alt=''/>
+                                <label>Webinars</label>
+                            </div>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/podcast.png' alt=''/>
+                                <label>Podcasts</label>
+                            </div>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/partners.png' alt=''/>
+                                <label>Partners</label>
+                            </div>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/academy.png' alt=''/>
+                                <label>Resource</label>
+                            </div>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/forums.png' alt=''/>
+                                <label>Message</label>
+                            </div>
+                        </div>
+                        <div className='hover2_innerDiv'>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/Payroll%20Management.png' alt=''/>
+                                <label>Payroll</label>
+                            </div>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/Leave%20Management.png' alt=''/>
+                                <label>Leave Management</label>
+                            </div>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/Attendance%20Management.png' alt=''/>
+                                <label>Attendance Management</label>
+                            </div>
+                            <div>
+                                <img src='https://www.greythr.com/images/resource-menu-icons/HRMS.png' alt=''/>
+                                <label>HRMS</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <Button variant='contained'>GET STARTED FOR FREE</Button>

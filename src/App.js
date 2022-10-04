@@ -9,6 +9,9 @@ import LeaveManagement from './Components/LeaveManagement';
 import Customers from './Components/Customers'
 import Payroll from './Components/Payroll';
 import Pricing from './Components/Pricing';
+import { ResourceLibrary } from './Components/ResourceLibrary';
+import Blogs from './Components/Blogs';
+import Guides from './Components/Guides';
 
 function App() {
   const arr =[
@@ -102,6 +105,19 @@ function App() {
     q5:'Customers',
     q6:'Partners'}
   ]
+  const arr5=[
+    {img:'https://www.datocms-assets.com/40521/1662703425-parichay-28-featured-image-300x175-v1.jpg?auto=format&dpr=0.94&w=300',
+     heading:'Digitisation. The Path to HR',
+     date:'August 11, 2022'},
+
+     {img:'https://www.datocms-assets.com/40521/1662703417-hrms-featured-image-9-300x175-v1.jpg?auto=format&dpr=0.94&w=300',
+      heading:'How Much Does an HRMS Cost?',
+      date:'August 10,2022'},
+
+    {img:'https://www.datocms-assets.com/40521/1662023282-parichay-24-featured-image-300x175.jpg?auto=format&dpr=0.94&w=300',
+    heading:'How does Employee Wellbeing Impact Business Productivity',
+    date:'June 21,2022'}
+  ]
   return (
     <div className="App">
       <Routes>
@@ -113,6 +129,9 @@ function App() {
         <Route path='/employeeSelf' element={<Employee/>}/>
         <Route path='/customers' element={<Customers/>}/>
         <Route path='/pricing' element={<Pricing/>}/> 
+        <Route path='/resourcelibrary' element={<ResourceLibrary array3={arr3}/>}/>
+        <Route path='/blog' element={<Blogs array3={arr5}/>}/>
+        <Route path='/guide' element={<Guides array3={arr5}/>} />
       </Routes>      
     </div>
   );
