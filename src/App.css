@@ -6,7 +6,7 @@
   width: 90%;
   margin: auto;
 }
-.task1_main_Div button{
+.task1_main_Div button,.task2_main_div button{
   height: 40px;
   width: 20%;
   background-color: rgb(134, 157, 221);
@@ -15,7 +15,7 @@
   font-size: 1.4rem;
   color: white;
 }
-table{
+.task1_main_Div table{
   height: 600px;
   margin-top: 5%;
   border-collapse: collapse;
@@ -25,4 +25,26 @@ table tr td{
   width: 400px;
   border: 2px solid rgb(134, 157, 221);
   border-collapse: collapse;
+}
+
+/* task2 */
+
+.task2_main_div{
+  height: auto;
+  width:90%;
+  margin: auto;
+}
+.task2_main_div table{
+  margin: auto;
+  margin-top: 2%;
+}
+.task2_main_div input{
+  height: 30px;
+  width: 20%;
+  margin: 2%;
+}
+.task2_main_div table{
+  margin-top: 5%;
+  border-collapse: collapse;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
