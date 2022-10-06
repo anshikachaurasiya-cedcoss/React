@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 const Blogs = (props) => {
   return (
     <>
-    <Navbar/>
+    <Navbar login={props.login}/>
     <div className='main_resource_div'>
         <h1>Blogs</h1>
     </div>

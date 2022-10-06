@@ -11,8 +11,8 @@ import Navbar from "./Navbar"
 const Home = (props) => {
   return (
     <>
-    <Navbar array={props.array} array2={props.array2} array3={props.array3} array4={props.array4}/>
-    <Body/>
+    <Navbar search={props.search} array={props.array} array2={props.array2} array3={props.array3} array4={props.array4} free={props.free} login={props.login}/>
+    <Body free={props.free}/>
     <Body2/>
     <Body3 array={props.array}/>
     <Body4 array2={props.array2}/>

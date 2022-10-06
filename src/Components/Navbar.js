@@ -76,8 +76,8 @@ const Navbar = (props) => {
                     </div>
                 </div>
             </div>
-            <Button variant='contained'>GET STARTED FOR FREE</Button>
-            <Button variant='outlined'>Login</Button>
+            <Button variant='contained' onClick={props.free}>GET STARTED FOR FREE</Button>
+            <Button variant='outlined' onClick={props.login}>Login</Button>
         </AppBar>
     </Box>
     </>

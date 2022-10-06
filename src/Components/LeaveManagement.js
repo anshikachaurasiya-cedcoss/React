@@ -1,9 +1,9 @@
 import Navbar from './Navbar'
 
-const LeaveManagement = () => {
+const LeaveManagement = (props) => {
   return (
     <>
-    <Navbar/>
+    <Navbar login={props.login}/>
     <div className='main_hr_Div'>
     <div className='main_hr_div'>
         <img src='https://www.datocms-assets.com/40521/1634632462-leave.png?auto=format&dpr=0.09&w=5943' alt=''/>

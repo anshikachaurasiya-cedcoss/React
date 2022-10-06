@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const Employee = () => {
+const Employee = (props) => {
   return (
     <>
-    <Navbar/>
+    <Navbar login={props.login}/>
     <div className='main_hr_Div'>
     <div className='main_hr_div'>
         <img src='https://www.datocms-assets.com/40521/1634632611-ess.png?auto=format&dpr=0.09&w=5943' alt=''/>

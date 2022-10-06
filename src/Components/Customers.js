@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const Customers = () => {
+const Customers = (props) => {
   return (
     <>
-    <Navbar/>
+    <Navbar login={props.login}/>
     <div className='main_customer_div'>
         <h2>Great teams achieve more with greytHR</h2>
         <div style={{display:'flex',flexDirection:'row',height:'60%',width:'90%'}}>

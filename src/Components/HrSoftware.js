@@ -1,9 +1,9 @@
 import Navbar from './Navbar'
 
-const HrSoftware = () => {
+const HrSoftware = (props) => {
   return (
     <>
-    <Navbar/>
+    <Navbar login={props.login}/>
     <div className='main_hr_Div'>
     <div className='main_hr_div'>
         <img src='https://www.datocms-assets.com/40521/1634632330-hrms.png?auto=format&dpr=0.09&w=5943' alt=''/>

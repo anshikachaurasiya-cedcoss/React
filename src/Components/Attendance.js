@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const Attendance = () => {
+const Attendance = (props) => {
   return (
     <>
-    <Navbar/>
+    <Navbar login={props.login}/>
     <div className='main_hr_Div'>
     <div className='main_hr_div_left' style={{margin:'5%'}}>
         <p style={{fontSize:'1.5rem',fontWeight:'500'}}>HRMS Software</p>

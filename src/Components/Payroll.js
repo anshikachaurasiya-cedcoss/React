@@ -1,9 +1,9 @@
 import Navbar from './Navbar'
 
-const Payroll = () => {
+const Payroll = (props) => {
   return (
     <>
-    <Navbar/>
+    <Navbar login={props.login}/>
     <div className='main_hr_Div'>
     <div className='main_hr_div_left' style={{margin:'5%'}}>
         <p style={{fontSize:'1.5rem',fontWeight:'500'}}>HRMS Software</p>

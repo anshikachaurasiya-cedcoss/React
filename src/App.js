@@ -1,5 +1,5 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { useRef, useState } from 'react';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Attendance from './Components/Attendance';
 import Employee from './Components/Employee';
@@ -12,8 +12,17 @@ import Pricing from './Components/Pricing';
 import { ResourceLibrary } from './Components/ResourceLibrary';
 import Blogs from './Components/Blogs';
 import Guides from './Components/Guides';
+import FreeTrial from './Components/FreeTrial';
+import Login from './Components/Login';
+import Verify from './Components/Verify';
+import TrialPage from './Components/TrialPage';
 
 function App() {
+  const navigate =useNavigate()
+  const inpVal = useRef(),checkVal=useRef()
+  var sletters =/^\w+([ \.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+  const[loginArr,setLoginArr]=useState([])
+  const[email,setEmail]=useState('')
   const arr =[
     {label1:'PAYROLL PROCESSING + STATUTORY COMPLIANCE',
     p1:'Process Payroll accurately',
@@ -45,7 +54,6 @@ function App() {
     p3:'Apply for Leave and get approvals online',
     img:'https://www.greythr.com/home/ghr_mobile.svg'}
   ]
-
   const arr2=[
     {img:'https://www.greythr.com/home/ghr_implementation.svg',
     heading:'PROFESSIONAL IMPLEMENTATION',
@@ -118,20 +126,74 @@ function App() {
     heading:'How does Employee Wellbeing Impact Business Productivity',
     date:'June 21,2022'}
   ]
+  const freeHandler=()=>{
+    navigate('/free')
+  }
+  const homehandler=()=>{
+    navigate('/')
+  }
+  const loginhandler=()=>{
+    navigate('/login')
+  }
+  const freeBTnHandler=()=>{
+    if(checkVal.current.getValue()!=='' && inpVal.current.value!==''){
+      if(inpVal.current.value.match(sletters))
+      {
+        loginArr.email=inpVal.current.value
+        loginArr.push(inpVal.current.value)
+        setLoginArr([...loginArr])
+        navigate('/verify')
+        inpVal.current.value=''
+      }
+      else{
+        alert('invalid email')
+      }
+    }
+    else{
+      alert('fill all details')
+    }
+  }
+  const searchBtnHandler=()=>{
+    if(checkVal.current.getValue()!=='' && inpVal.current.value!==''){
+      var temp=-1
+      for( var i=0;i<loginArr.length;i++){
+        if(inpVal.current.value==loginArr[i])
+        {
+          var e = loginArr[i];
+          setEmail(e)
+          temp=i;
+        }
+      }
+      if(temp!==-1){
+        navigate('/trialfree')
+      }
+      else{
+        alert('not match credentials')
+      }
+    }
+    else{
+      alert('fill all details')
+    }
+  }
+
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Home array={arr} array2={arr2} array3={arr3} array4={arr4}/>}/>
-        <Route path='/hrsoftware' element={<HrSoftware/>}/>
-        <Route path='/payroll' element={<Payroll/>}/>
-        <Route path='/leavemanagement' element={<LeaveManagement/>}/>
-        <Route path='/attendance' element={<Attendance/>}/>
-        <Route path='/employeeSelf' element={<Employee/>}/>
-        <Route path='/customers' element={<Customers/>}/>
-        <Route path='/pricing' element={<Pricing/>}/> 
-        <Route path='/resourcelibrary' element={<ResourceLibrary array3={arr3}/>}/>
-        <Route path='/blog' element={<Blogs array3={arr5}/>}/>
-        <Route path='/guide' element={<Guides array3={arr5}/>} />
+        <Route path='/' element={<Home login={loginhandler} array={arr} array2={arr2} array3={arr3} array4={arr4} free={freeHandler}/>}/>
+        <Route path='/login' element={<Login free={freeHandler} search={searchBtnHandler} inpVal={inpVal} checkVal={checkVal}/>}/>
+        <Route path='/hrsoftware' element={<HrSoftware login={loginhandler} />}/>
+        <Route path='/payroll' element={<Payroll login={loginhandler}/>}/>
+        <Route path='/leavemanagement' element={<LeaveManagement login={loginhandler}/>}/>
+        <Route path='/attendance' element={<Attendance login={loginhandler}/>}/>
+        <Route path='/employeeSelf' element={<Employee login={loginhandler}/>}/>
+        <Route path='/customers' element={<Customers login={loginhandler}/>}/>
+        <Route path='/pricing' element={<Pricing login={loginhandler}/>}/> 
+        <Route path='/resourcelibrary' element={<ResourceLibrary array3={arr3} login={loginhandler}/>}/>
+        <Route path='/blog' element={<Blogs array3={arr5} login={loginhandler}/>}/>
+        <Route path='/guide' element={<Guides array3={arr5} login={loginhandler}/>} />
+        <Route path='/free' element={<FreeTrial home={homehandler} freeBtn={freeBTnHandler} inpval={inpVal} check={checkVal} />}/>
+        <Route path='/verify' element={<Verify arr={loginArr} home={homehandler}/>}/>
+        <Route path='/trialfree' element={<TrialPage home={homehandler} arr={loginArr} email={email}/>}/>
       </Routes>      
     </div>
   );
