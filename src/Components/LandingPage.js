@@ -11,7 +11,7 @@ const LandingPage = (props) => {
             </div>
             <div className='landingpage_right'>
                 <input ref={props.val}/>
-                <button>Search</button>
+                <button onClick={props.search}>Search</button>
             </div>
         </div>
         <div className='list' >

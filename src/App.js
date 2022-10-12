@@ -10,12 +10,16 @@ function App() {
     if (inpVal.current) {
       inpVal.current.focus();
     }
-    fetch('https://openlibrary.org/search.json?q=fantastic+mr+fox&mode=ebooks&has_fulltext=true')
+    
+  }, []);
+
+  const search=()=>{
+    fetch(`https://openlibrary.org/search.json?q=${inpVal.current.value}&mode=ebooks&has_fulltext=true`)
     .then(res=>res.json())
     .then(data=>{
       setArr(data.docs)
     })
-  }, []);
+  }
 
   
   const divhandler=(seed)=>{
@@ -30,7 +34,7 @@ function App() {
   return (
     <>
     <div className='main'>
-      <LandingPage arr={arr} div={divhandler} val={inpVal}/>
+      <LandingPage arr={arr} div={divhandler} val={inpVal} search={search}/>
     </div>
     </>    
   );
