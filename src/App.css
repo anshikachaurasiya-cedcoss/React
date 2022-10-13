@@ -1,38 +1,171 @@
 .App {
   text-align: center;
+  height: auto;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+  background-color: rgb(146, 182, 214) !important;
+  height: 15% !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root h2{
+  margin: auto !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#main{
+  height: 250px;
+  width: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 7.2%;
+}
+.product{
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+
+.btnCart{
+height: 40px;
+width: 70%;
+font-size: 1.3rem;
+background-color: orange;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border: none;
+color: white;
+border-radius: 5px;
+}
+ #products .product .title a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: light;
+  color: #000000;
+ }
+.product img{
+  width: 50%;
+  height: 50%;
+}
+
+/* my editing */
+table{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input{
+  border: none;
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+table, th, td{
+  border: 2px solid rgb(146, 182, 214);
+  border-collapse: collapse;
+}
+#table{
+  height: 100px;
+  width: 60%;
+} 
+.btnDiv{
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btnDiv input{
+  width: 10%;
+}
+.btnDiv button{
+  width: 10%;
+}
+.block{
+  display: block;
+  height: 40px;
+  border: none;
+  width: 10%;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: rgb(243, 67, 67);
+  margin: 2%;
   color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.none{
+  display: none;
+}
+.text_block{
+  display: block;
+}
+.text_none{
+  display: none;
+}
+#btnDel{
+  height: 30px;
+  width: 30px;
+  font-size: 1.3rem;
+  border: none;
+}
+.btnDes{
+  font-size: 2rem;
+  border: none;
+}
+.num{
+  background-color: rgb(240, 234, 234);
+}
+#tbl img{
+  height: 30%;
+  width: 20%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width:920px){
+  .btnCart{
+    width:100%
   }
-  to {
-    transform: rotate(360deg);
+  .block{
+    width:20%
+  }
+  .text_block{
+    width:50%;
+    
+  }
+}
+@media only screen and (max-width:800px){
+  .btnCart{
+    font-size: 1rem;
+  }
+  .text_block{
+    font-size: 1rem;
+  }
+  table{
+    width:70%;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width:725px){
+  .product h4{
+    font-size: 0.8rem;
+  }
+  .btnCart{
+    font-size: 0.8rem;
+  }
+  .App h2{
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width:560px){
+  .block{
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width:520px){
+  .btnCart {
+    font-size: 0.6rem;
+  }
+  .product h4{
+    font-size: 0.6rem;
   }
 }
