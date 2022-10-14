@@ -1,38 +1,92 @@
 .App {
-  text-align: center;
+  text-align: center;  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: #c8cbf5;
+  color: #071072;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+  background: #967ae7 !important;
 }
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+  background: #9a2ad3e3  !important;
+  color: white !important;
+  margin-left: auto !important;
+  border-radius: 20px !important;
+  font-weight: 700 !important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+  color:white !important;
+  font-size: 45px !important;
+}
+.css-5lbw0b-MuiTypography-root{
+  font-weight: 800 !important;
+  color:white !important;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-left: 2% !important;
+}
+.home{
+  margin-left: auto !important;
+}
+.search_div{
+  margin-top: 65px;
+  height: 500px !important;
+  width: 100%;
+  background-image: url('https://img.freepik.com/free-photo/book-library-with-open-textbook_1150-5920.jpg');
+  background-size: cover;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column ;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.search_inp{
+  height: 100%;
+  width: 100%;
+  margin: 1%;
+  border-radius: 20px;
+  font-size: 1.9rem;
+  border: 4px solid rgb(123, 51, 240);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap: 30px;
+  justify-content: space-around;
+  width: 95%;
+  margin: auto;
+  padding: 4% 0;
+}
+.item{
+  height: 400px;
+  width: 100%;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: grab;
+  background-color: white;
+}
+.item img{
+  height: 50%;
+  width: 95%;
+}
+.title{
+  font-size: 1rem !important;
+  font-weight: 900 !important;
+}
+.content{
+  font-size: 0.8rem !important;
+  font-weight: 200 !important;
+}
+.content1{
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: peru !important;
+}
+.content2{
+  font-size: 0.7rem !important;
+  color: grey!important;  
+}
+.star{
+  color: rgba(252, 206, 54, 0.904) !important;
+  font-size: 20px !important;
 }
