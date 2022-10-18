@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+  background-color: black !important;
+  color: white !important;
+}
+.main{
+  margin-top: 60px !important;
+  height: 100vh;
+  width: 100%;
+  background-color: azure;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+.box1{
+  height: 150px !important;
+  width: 320px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column !important;
+  margin: 1%;
+}
+.box1 input{
+  height: 30px;
+  width: 30px;
+}
+.box1 label{
+  margin: auto;
+  color: grey;
+}
+.box1 button{
+  border: none;
+  background: white;
+  margin: auto;
+  color: grey;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn_div button{
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  margin: 1%;
+}
+.blue{
+  background-color: blue !important;
+}
+.bluetxt{
+  color: blue;
+}
+.purple{
+  background-color: purple !important;
+}
+.purpletxt{
+  color: purple;
+}
+.red{
+  background-color: red !important;
+}
+.redtxt{
+  color: red;
+}
+.orange{
+  background-color: orange !important;
+}
+.orangetxt{
+  color: orange;
+}
+.yellow{
+  background-color: yellow !important;
+}
+.yellowtxt{
+  color: yellow;
+}
+.green{
+background-color: green !important;
+}
+.greentxt{
+  color: green;
+}
+.black{
+background-color: black !important;
+}
+.blacktxt{
+  color: black;
+}
+.grey{
+  background-color: grey !important;
+}
+.greytxt{
+  color: grey;
+}
+.white{
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box2{
+  height: 500px;
+  width: 600px;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contarst{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  background-color: azure;
+}
+.contarst div{
+  height: 200px;
+  width: 500px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.contarst button{
+  height: 90px;
+    width: 115px;
+    margin: 5%;
+    border: none;
+}
+.contarst img{
+  height: 70%;
+  width: 40%;
+}
+.blackContrast{
+  filter: contrast(1.2);
+}
+.lightContrast{
+  filter: contrast(1.80);
+}
+.highContrast{
+  filter: contrast(20%);
 }
