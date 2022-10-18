@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+.App{
+  height: auto;
+  width: 100%;
+  background: rgb(255, 255, 255);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main_div{
+  height: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color:  #DFF6FF;
+}
+.search_div{
+  height: 70px;
+  width: 100%;
+  background: #5F9DF7;
+  display: flex;
+  flex-direction: row;
+}
+.search_div img{
+  height: 80px;
+  width: 95px;
+}
+.search_div form{
+  width: 80%;
+  margin: auto;
+}
+.search_div input{
+  height: 30px;
+  width: 60%;
+  margin: 1.5% 10%;
+}
+.create_div{
+  height: 200px;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  text-align: center;
+ 
+}
+.create_innerdiv{
+  height: 40%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create_innerdiv input{
+  height: 35%;
+  width: 40%;
+  margin: 1%;
+}
+.create_innerdiv textarea {
+  height: 90%;
+  width: 50%;
+  margin: 1%;
+}
+.create_div button{
+  height: 40px;
+  width: 22%;
+  background: orangered;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
   color: white;
+  margin: 1%;
 }
-
-.App-link {
-  color: #61dafb;
+.list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(290px,1fr));
+  gap: 24px;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+  padding: 4% 0;
+ 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.item{
+  height: 350px;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: grab;
+  background-color: #5F9DF7;
+  color: white;
+  margin: 5%;
+  overflow-y: scroll;
+}
+.item>img{
+  width: 100%;
+  height: 45%;
+  border-radius: 5px;
+}
+.edit{
+  height: 6%;
+  width: 15%;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin: 0.5%;
+}
+.delete{
+  height: 6%;
+  width: 20%;
+  background: #e1353d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin: 0.5%;
+}
+@media (max-width:500px){
+  .create_div button{
+    font-size: 0.8rem !important;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  /* .search_div div{
+  } */
 }
