@@ -1,0 +1,140 @@
+.App {
+  text-align: center;  
+}
+body{
+  background: #ffc492;
+  color: #071072;
+}
+.css-hyum1k-MuiToolbar-root img{
+  height: 40px !important;
+  width: 60px!important;
+}
+.css-hyum1k-MuiToolbar-root a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem !important;
+  margin: 1%;
+}
+.css-hyum1k-MuiToolbar-root h4{
+  width:300px;
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+  background: #f59f47 !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+  background: #ff6c04e3  !important;
+  color: white !important;
+  margin-left: auto !important;
+  border-radius: 20px !important;
+  font-weight: 700 !important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+  color:white !important;
+  font-size: 45px !important;
+}
+.css-5lbw0b-MuiTypography-root{
+  font-weight: 800 !important;
+  color:white !important;
+
+  margin-left: 2% !important;
+}
+.home{
+  margin-left: auto !important;
+}
+.search_div{
+  margin-top: 65px;
+  height: 500px !important;
+  width: 100%;
+  background-image: url('https://media.istockphoto.com/photos/shopping-online-concept-shopping-service-on-the-online-web-with-by-picture-id1133980246?k=20&m=1133980246&s=612x612&w=0&h=bwut2YUV7gtnjrv354523xU_9S-TtKQOqGTdiGMsPfs=');
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+}
+.search_inp{
+  height: 100%;
+  width: 100%;
+  margin: 1%;
+  border-radius: 20px;
+  font-size: 1.9rem;
+  border: 4px solid rgb(240 138 51);
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap: 30px;
+  justify-content: space-around;
+  width: 95%;
+  margin: auto;
+  padding: 4% 0;
+}
+.item{
+  height: 400px;
+  width: 100%;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: grab;
+  background-color: white;
+}
+.item img{
+  height: 50%;
+  width: 95%;
+}
+.title{
+  font-size: 1rem !important;
+  font-weight: 900 !important;
+}
+.content{
+  font-size: 0.8rem !important;
+  font-weight: 200 !important;
+}
+.content1{
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: peru !important;
+}
+.content2{
+  font-size: 0.7rem !important;
+  color: grey!important;  
+}
+.star{
+  color: rgba(252, 206, 54, 0.904) !important;
+  font-size: 20px !important;
+}
+@media (max-width:760px){
+  .css-hyum1k-MuiToolbar-root h4{
+    font-size: 1.9rem !important;
+  }
+  .css-hyum1k-MuiToolbar-root a{
+    font-size: 1.2rem !important;
+  }
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    font-size: 0.7rem !important;
+    width:20% !important;
+  }
+}
+@media (max-width:675px){
+  .css-hyum1k-MuiToolbar-root a{
+    font-size: 0.9rem !important;
+  }
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    font-size: 0.6rem !important;
+    width:15% !important;
+  }
+  .css-hyum1k-MuiToolbar-root h4{
+    font-size: 1.5rem !important;
+    /* width: 30px !important; */
+  }
+}
+@media (max-width:615px){
+  .css-hyum1k-MuiToolbar-root h4{
+    font-size: 1.2rem !important;
+  }
+}
+@media (max-width:420px){
+  .search_inp{
+    width:70% !important;
+  }
+}
