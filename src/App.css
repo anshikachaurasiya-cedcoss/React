@@ -1,38 +1,212 @@
-.App {
-  text-align: center;
+.css-0{
+  text-align: center !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-hyum1k-MuiToolbar-root a{
+  color: black !important;
+  font-size: 900 !important;
+  text-decoration: underline black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+background:#002d2d !important;
+height: 70px !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root img{
+  height: 30px;
+}
+.css-ahj2mt-MuiTypography-root{
+  font-weight: 900 !important;
+  font-style: italic !important;
+  font-size: 1.8rem !important;
+  margin: 0.5% !important;
+}
+.selectBox{
+  height: 60px;
+  width: 90px;
+}
+.selectBox:hover .selectDiv{
+  display: block;
+}
+.select{
+  font-size: 1rem !important;
+}
+.selectDiv{
+  display: none;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.selectBox:hover .SellDiv{
+  display: block;
+}
+.selectBox:hover .MarketDiv{
+  display: block;
+}
+.SellDiv{
+  display: none;
+  height: 350px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.MarketDiv{
+  display: none;
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.startBtn{
+  height: 50px !important;
+  width: 12% !important;
+  color: white !important;
+  background-color: #008060 !important;
+  margin-left: 2% !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+}
+.SignPage{
+  height: 550px !important;
+  width: 100% !important;
+  background-color: #002d2d !important;
+  margin-top: 70px !important;
+  display: flex;
+  flex-direction: row !important;
+}
+.SignPageLeft{
+  height: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  text-align: left;
+}
+.SignPageLeft h1{
+  font-size: 3rem;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.SignPageLeft p,label {
+  margin-left: 10%;
+}
+.SignPageLeft input{
+  margin-left: 10%;
+  margin-bottom: 2%;
+  height: 50px;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+}
+.SignPageLeft button{
+  height: 50px !important;
+  width: 30% !important;
+  color: white !important;
+  background-color: #008060 !important;
+  margin-left: 2% !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+}
+.SignPageRight{
+  height: 100%;
+  width: 50%;
+  background-image: url('/public/Frame\ 5.png');
+  background-size: 100% 100%;
+}
+.signBelow{
+  height: 430px;
+  width: 100%;
+  background-image: url('/public/Frame\ 6.png');
+  background-size: 100% 100%;
+}
+.signBelow1{
+  height: 500px;
+  width: 100%;
+  background-image: url('/public/Frame\ 9.png');
+  background-size: 100% 100%;
+}
+.signBelow2{
+  height: 360px;
+  width: 100%;
+  background-image: url('/public/Frame\ 10.png');
+  background-size: 100% 100%;
+}
+.signBelow3{
+  height: 450px;
+  width: 100%;
+  background-image: url('/public/Frame\ 11.png');
+  background-size: 100% 100%;
+}
+.signBelow4{
+  height: 500px;
+  width: 100%;
+  background-image: url('/public/Frame\ 12.png');
+  background-size: 100% 100%;
+}
+.signBelow5{
+  height: 950px;
+  width: 100%;
+  background-image: url('/public/Frame\ 14\ \(1\).png');
+  background-size: 100% 100%;
+}
+.signBelow6{
+  height: 200px;
+  width: 100%;
+  background-image: url('/public/Frame\ 15.png');
+  background-size: 100% 100%;
+}
+.signBelow7{
+  height: 600px;
+  width: 100%;
+  background-image: url('/public/Frame\ 16.png');
+  background-size: 100% 100%;
+}
+.signBelow8{
+  height: 300px;
+  width: 100%;
+  background-image: url('/public/Frame\ 17.png');
+  background-size: 100% 100%;
+}
+.signBelow9{
+  height: 700px;
+  width: 100%;
+  background-image: url('/public/Frame\ 18.png');
+  background-size: 100% 100%;
+}
+.signBelow10{
+  height: 100px;
+  width: 100%;
+  background-image: url('/public/Frame\ 19.png');
+  background-size: 100% 100%;
+}
+.bodyDiv{
+  height: 600px;
+  width: 100%;
+  background-image: url('/public/Frame\ 3.png');
+  background-size: 100% 100%;
+}
+.footer{
+  height: 600px;
+  width: 100%;
+  background-image: url('/public/Frame\ 1.png');
+  background-size: 100% 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width:1215px){
+  .SignPageLeft h1{
+    font-size: 2.5rem !important;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width:475px){
+  .SignPageLeft h1{
+    font-size: 2rem !important;
   }
 }
