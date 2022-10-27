@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+.css-0{
+  text-align: center !important;
+}
+.css-hyum1k-MuiToolbar-root a{
+  color: black !important;
+  font-size: 900 !important;
+  text-decoration: underline black;
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+background: white !important;
+height: 80px !important;
+color: black !important;
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root img{
+  height: 30px;
+}
+.css-ahj2mt-MuiTypography-root{
+  font-weight: 900 !important;
+  font-style: italic !important;
+  font-size: 1.8rem !important;
+  margin: 0.5% !important;
+}
+.selectBox{
+  height: 60px;
+  width: 90px;
+}
+.selectBox:hover .selectDiv{
+  display: block;
+}
+.select{
+  font-size: 1rem !important;
+}
+.selectDiv{
+  display: none;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.selectBox:hover .SellDiv{
+  display: block;
+}
+.selectBox:hover .MarketDiv{
+  display: block;
+}
+.SellDiv{
+  display: none;
+  height: 350px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.MarketDiv{
+  display: none;
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.startBtn{
+  height: 50px !important;
+  width: 12% !important;
+  color: white !important;
+  background-color: black !important;
+  margin-left: 2% !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.domain_box{
+  margin-top: 82px;
+  height: 250px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #faf9f8;
+}
+.domainBox_h3{
+  width: 50%;
+  font-weight: 900 !important;
+}
+.input_Box{
+  height: 100px !important;
+  width: 100% !important;
+  background-color: #faf9f8;
+
+}
+.input_Box input{
+  height: 50px !important;
+  width: 50% !important;
+  border-radius: 5px;
+  border: 2px solid #008060;
+  font-size: 1.2rem;
+}
+.input_Box button{
+  background-color: #008060 !important;
+  color: white !important;
+  height: 50px;
+  margin: 2% !important;
+  width: 20%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.img1{
+  height: 300px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.brandBox{
+  margin-top: 80px;
+  height: 600px !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.para{
+  height: 8%;
+  width: 70%;
+  margin: auto;
+  font-size: 1.4rem;
+  background-color: #e8e9eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #a7a1a1;
+}
+.far{
+  color: green;
+  font-size: 30px;
 }
