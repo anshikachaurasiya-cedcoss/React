@@ -42,21 +42,25 @@ const check=()=>{
         presentClass.classList.add('correct')
         prevClass.classList.add('correct')
         count-=2
-        steps+=1
-        setSteps(steps)
         setCount(count)
         setPrev(-1);
         setPresent(-1)
+        steps+=1
+        setSteps(steps)
+        console.log(steps)
         if(count==0){
             alert('you won!')
-            document.getElementById('head').innerHTML='Congratulations You Won!'+'Total Steps'+steps;
+            document.getElementById('head').innerHTML='Congratulations You Won! &nbsp; Completed the game in &nbsp;' + steps + ' &nbsp;steps'
         }
     }
     else{
+        steps+=1
+        setSteps(steps)
         prevClass.classList.remove('active');
         presentClass.classList.remove('active');
         setPrev(-1);  
         setPresent(-1)
+        console.log(steps)
     }
 }
 const clickHandler=(e)=>{
