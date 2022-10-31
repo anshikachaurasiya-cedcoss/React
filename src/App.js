@@ -3,10 +3,8 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import Body from './Components/Body';
 import Brand from './Components/Brand';
-import Footer from './Components/Footer';
 import LoginPage from './Components/LoginPage';
 import Logo from './Components/Logo';
-import Navbar from './Components/Navbar';
 import Use from './Components/Use';
 import Preview from './Components/Preview';
 import Edit from './Components/Edit';
@@ -59,17 +57,18 @@ function App() {
   ]
   var navigate=useNavigate()
   var [count,setCount]=useState(1)
-  var [flg,setFlg]=useState(0)
+  var [flg,setFlg]=useState(1)
   const [Items,setItems]=useState(Item)
+  var [img,setImg]=useState('')
+  var [sty,setSty]=useState('')
 
   var [business,setBusiness]=useState('')
   var [slogan,setSlogan]=useState('')
-  var [next,setNext]=useState('Next')
 
-  // useEffect(()=>{
-  //   var it = document.getElementById('item')
-  //   it.classList.add('box_border')
-  // },[])
+  useEffect(()=>{
+    var it = document.getElementById('item')
+    it.classList.add('box_border')
+  },[])
   const divHandler=(e)=>{
     let variable=e.target.parentElement.parentElement.parentElement.children
     for(let i=0;i<variable.length;i++)
@@ -86,95 +85,38 @@ function App() {
     e.target.closest('#item2').classList.add('box_border')
   }
   const divHandler3=(e)=>{
-    console.log(e.target.parentElement)
-    console.log(e.target.getAttribute('index'))
     let variable = e.target.children
-    for(var i=0;i<variable.length;i++){
-      console.log(variable[i].classList.add('box_border'))
-    }
-  }
-  const nextHandler=()=>{
-    if(count==1){
-      count+=1
-      setCount(count)
-      setItems(Items)
-      navigate('/brand')
-    }
-    else if(count==2){
-      count+=1
-      setCount(count)
-      navigate('/login')                                                    
-    }
-    else if(count==3){
-      count+=1
-      setCount(count)
-      navigate('/use')
-    }
-    else if(count==4){
-      count+=1
-      setCount(count)
-      navigate('/logo')
-    }
-    else if(count==5){
-      count+=1
-      setCount(count)
-      navigate('/edit')
-    }
-    else if(count==6){
-      setNext('Download')
-      navigate('preview')
+    if(flg==1){
+      variable[1].classList.add('fa-check-circle-border')
+      setFlg(2)
     }
     else{
-      return
+      variable[1].classList.remove('fa-check-circle-border')
+      setFlg(1)
     }
   }
-  // const backHandler=()=>{
-  //   if(flg==0){
-  //     count-=1
-  //     setCount(count)
-  //     flg+=1
-  //     setFlg(flg)
-  //     navigate('/')
-  //   }
-  //   else if(flg==1){
-  //     count-=1
-  //     setCount(count)
-  //     flg+=1
-  //     setFlg(flg)
-  //     navigate('/brand')
-  //   }
-  //   else if(flg==2){
-  //     count-=1
-  //     setCount(count)
-  //     flg+=1
-  //     setFlg(flg)
-  //     navigate('/login')
-  //   }
-  //   else if(flg==3){
-  //     count-=1
-  //     setCount(count)
-  //     flg+=1
-  //     setFlg(flg)
-  //     navigate('/use')
-  //   }
-  //   else if(flg==4){
-  //     count-=1
-  //     setCount(count)
-  //     flg+=1
-  //     setFlg(flg)
-  //     navigate('/logo')
-  //   }
-  //   else if(flg==5){
-  //     count-=1
-  //     setCount(count)
-  //     flg+=1
-  //     setFlg(flg)
-  //     navigate('/edit')
-  //   }
-  // }
+  const edit =(e)=>{
+    var ind=e.target.getAttribute('index')
+    var parent = e.target.parentElement
+    var c = parent.getAttribute('id')
+    e.target.parentElement.classList.add('c')
+    setImg(c)
+    if(ind==0){
+      setSty('p1style')
+    }
+    else if(ind==1){
+      setSty('p2style')
+    }
+    else if(ind==2){
+      setSty('p3style')
+    }
+    else{
+      setSty('p4style')
+    }
+    navigate('/edit')
+  }
   const changeHandler=(e)=>{
     setBusiness(e.target.value)
-    console.log(business)
   }
   const changeHandler2=(e)=>{
     setSlogan(e.target.value)
@@ -182,15 +124,14 @@ function App() {
   return (
     <React.Fragment>
       <Routes>
-        <Route path='/' element={<Body items={items} divHandler={divHandler}y/>}/>
+        <Route path='/' element={<Body items={items} divHandler={divHandler}/>}/>
         <Route path='/brand' element={<Brand Items={Items} divHandler2={divHandler2} />}/>
         <Route path='/login' element={<LoginPage changeHandler={changeHandler} changeHandler2={changeHandler2}/>}/>
         <Route path='/use' element={<Use use={use} divHandler3={divHandler3}/>}/>
-        <Route path='/logo' element={<Logo style={style}/>}/>
-        <Route path='/edit' element={<Edit business={business} slogan={slogan} />}/>
-        <Route path='/preview' element={<Preview/>}/>
+        <Route path='/logo' element={<Logo style={style} edit={edit}/>}/>
+        <Route path='/edit' element={<Edit sty={sty} business={business} slogan={slogan} img={img} changeHandler={changeHandler} changeHandler2={changeHandler2} />}/>
+        <Route path='/preview' element={<Preview sty={sty} business={business} slogan={slogan} img={img}/>}/>
       </Routes>
-      <Footer nextHandler={nextHandler} next={next}/>
     </React.Fragment>
   );
 }

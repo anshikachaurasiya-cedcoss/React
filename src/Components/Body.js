@@ -1,6 +1,7 @@
 import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
+import Footer from './Footer'
 import Navbar from './Navbar'
 
 const Body = (props) => {
@@ -23,6 +24,7 @@ const Body = (props) => {
                 })}
             </Box>
         </Box>
+        <Footer foot='/brand'/>
     </React.Fragment>
   )
 }

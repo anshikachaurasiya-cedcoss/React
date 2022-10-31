@@ -164,19 +164,19 @@
   font-weight: 600;
   color: white;
 }
-.e1{
+#e1{
   background-image: url('/public/e1.png');
   background-size: 100% 100%;
 }
-.e2{
+#e2{
   background-image: url('/public/e2.png');
   background-size: 100% 100%;
 }
-.e3{
+#e3{
   background-image: url('/public/e3.png');
   background-size: 100% 100%;
 }
-.e4{
+#e4{
   background-image: url('/public/e4.png');
   background-size: 100% 100%;
 }
@@ -258,7 +258,6 @@
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  background-color: aqua;
 }
 .preview_mainBox{
   height: 400px;
@@ -307,4 +306,46 @@
 .label_loginPage{
   font-size: 1.5rem;
   color: #383535;
+}
+
+.fa-check-circle{
+  font-size: 30px;
+  margin-right: 2%;
+  color: white;
+}
+.fa-check-circle-border{
+  color: #5c6ac4;
+  
+}
+
+.appbar_box a{
+  text-decoration: none !important;
+}
+.footer_box a{
+  text-decoration: none;
+}
+
+.p1style{
+  color:'yellow' !important;
+  font-style: italic;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.p2style{
+  color:'yellow';
+  font-style: italic;
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+.p3style{
+  color: white;
+  font-style: normal;
+  font-family: monospace;
+  font-size: 1.6rem;
+}
+.p4style{
+  color: blue;
+  font-style: italic;
+  font-family: fantasy;
+  font-size: 1.5rem;
 }

@@ -6,15 +6,15 @@ import Navbar from './Navbar'
 const Preview = (props) => {
   return (
     <React.Fragment>
-      <Navbar backHandler={props.backHandler}/>
+      <Navbar link='/edit'/>
       <Box className='bodyBox'>
       <Typography variant='h3' sx={{color:'#212b36',margin:'5px'}}>Congratulations on your new logo</Typography>
       <Typography variant='h5' sx={{color:'#8b8f94',margin:'15px'}}>Download your free logos now</Typography>
       <Box className='preview_mainBox'>
         <Box className='peview_upper'>
-          <div className='imgDiv2'>
-            <p>{props.business}</p>
-            <p>{props.business}</p>
+          <div className='imgDiv2' id={props.img}>
+            <p className={props.sty}>{props.business}</p>
+            <p className={props.sty}>{props.slogan}</p>
           </div>
           <div className='contentdiv'>
             <label style={{margin:'2%',fontSize:'1.2rem'}}>Included in all logo packages</label>
@@ -39,7 +39,6 @@ const Preview = (props) => {
           </div>
         </Box>
         <button className='downloadBtn' style={{border:'none',borderRadius:'5px',backgroundColor:'#5c6ac4',height:'12%',width:'20%',color:'white',fontWeight:'800',fontSize:'1rem',margin:'3%'}}>Download</button>
-
       </Box>
       </Box>
     </React.Fragment>

@@ -6,11 +6,12 @@ import ColorLensIcon from '@mui/icons-material/ColorLens';
 import FilterFramesIcon from '@mui/icons-material/FilterFrames';
 import { Typography } from '@mui/material';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Edit = (props) => {
   return (
     <React.Fragment>
-      <Navbar backHandler={props.backHandler}/>
+      <Navbar link='/logo'/>
       <Box className='edit_mainBox'>
         <Box className='edit_mainBox_left'>
           <Box className='edit_mainBox_left1'>
@@ -34,21 +35,22 @@ const Edit = (props) => {
           <Box className='edit_mainBox_left2'>
             <div className='left2_div'>
               <Typography variant='label1' sx={{fontSize:'1.4rem'}}>Business name (optional)</Typography>
-              <input value={props.business}/>
+              <input value={props.business} onChange={props.changeHandler}/>
             </div>
             <div className='left2_div'>
               <Typography variant='label1' sx={{fontSize:'1.4rem'}}>Slogan (optional)</Typography>
-              <input value={props.slogan}/>
+              <input value={props.slogan} onChange={props.changeHandler2}/>
             </div>
           </Box>
         </Box>
-        <Box className='edit_mainBox_right'>
-          <div className='imgDiv'>
-            <p>{props.business}</p>
-            <p>{props.business}</p>
+        <Box className={`edit_mainBox_right`} >
+          <div className='imgDiv' id={props.img}>
+            <p className={props.sty}>{props.business}</p>
+            <p className={props.sty}>{props.slogan}</p>
           </div>
         </Box>
       </Box>
+      <Footer foot='/preview'/>
     </React.Fragment>
   )
 }
