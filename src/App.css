@@ -1,38 +1,262 @@
-.App {
-  text-align: center;
+/* navbar */
+
+.css-hyum1k-MuiToolbar-root a{
+  color: black !important;
+  font-size: 900 !important;
+  text-decoration: underline black;
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+background:white !important;
+height: 70px !important;
+color: black !important;
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root img{
+  height: 30px;
+}
+.css-ahj2mt-MuiTypography-root{
+  font-weight: 900 !important;
+  font-style: italic !important;
+  font-size: 1.8rem !important;
+  margin: 0.5% !important;
+}
+.selectBox{
+  height: 60px;
+  width: 90px;
+}
+.selectBox:hover .selectDiv{
+  display: block;
+}
+.select{
+  font-size: 1rem !important;
+}
+.selectDiv{
+  display: none;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.selectBox:hover .SellDiv{
+  display: block;
+}
+.selectBox:hover .MarketDiv{
+  display: block;
+}
+.SellDiv{
+  display: none;
+  height: 350px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.MarketDiv{
+  display: none;
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.startBtn{
+  height: 50px !important;
+  width: 12% !important;
+  color: white !important;
+  background-color: #008060 !important;
+  margin-left: 2% !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+}
+.SignPage{
+  height: 550px !important;
+  width: 100% !important;
+  background-color: #002d2d !important;
+  margin-top: 70px !important;
+  display: flex;
+  flex-direction: row !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Themes component */
+
+.navbar_below{
+  margin-top: 70px;
+  background-color:#054a49;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+}
+.navbar_below_labels{
+  margin: 2% !important;
+  color: white;
+}
+.img_box{
+  height: 700px;
+  width: 100%;
+  background-color: #054a49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnImg_box{
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+.btnExplore{
+  background-color: white !important;
+  color: #008060 !important;
+  border: 2px solid #008060 !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  height: 50px;
+  width: 200px;
+  margin: 3% !important;
+}
+.btnExplore:hover{
+  background-color: #008060 !important;
+  color: white !important;
+}
+.img_explore{
+  width: 70%;
+  height: 70%;
+  box-shadow: 0 2px 16px rgb(33 43 54 / 8%), 0 30px 40px rgb(33 43 54 / 20%);
+}
+.freeTrial_box{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.freeBtn{
+  background-color: #008060 !important;
+  color: white !important;
+  border: 2px solid #008060 !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  height: 50px;
+  width: 200px;
+  margin: 3% !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+  display: flex;
+  flex-direction: row !important;
+  box-shadow: none !important;
+  background-color: #f8f7f7 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.themeIcon{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* Explore Component */
+
+.exloreThemes_Box{
+  margin-top: 70px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+}
+.exploreThemes_BoxLeft{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.exploreThemesBtn{
+  height: 50px !important;
+  width: 40% !important;
+  background-color: black !important;
+  color: white !important;
+  border-radius: 30px !important;
+}
+
+/* Explore Themes Page */
+
+.itemsBox_Above{
+  margin-top: 70px;
+  height: 150px;
+  width: 100%;
+  background-color: #fafafa;
+}
+.itemsBox_Above>p{
+  padding: 4% !important;
+  font-style: normal !important;
+}
+.itemsBox{
+  height: 800px ;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 1em;
+  padding: 2%;
+  margin: auto;
+}
+.itemBox{
+  height: 400px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
+}
+.itemBox img{
+  height: 250px;
+  width: 70%;
+}
+.itemcontentBox{
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
+  gap: 1em;
+  width: 90%;
+}
+.itemcontentBox p{
+  font-size: 0.8125em;
+  background-color: #e9e4e4;
+  color: grey;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Themedescription Page */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description_mainBox{
+  height: 600px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: row !important;
+  margin-top: 80px;
+  padding-bottom: 5%;
+}
+.descriptionLeft{
+  height: 90%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
 }
