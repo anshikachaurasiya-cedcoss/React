@@ -59,10 +59,24 @@ const Navbar = (props) => {
             <label>Facebook Ads</label>
           </div>
         </Box>
+        <Box className='selectBox'>
         <Toolbar>
           <Typography variant='body2' className='select'>Manage</Typography>
           <KeyboardArrowDownIcon/>
         </Toolbar>
+        <div className='ManageDiv'>
+            <br/>
+            <label>Manage EveryThing</label>
+            <hr style={{width:'80%'}}/>
+            <label>Payments</label><br/><br/>
+            <label>Balance</label><br/><br/>
+            <label onClick={props.capitalHandler}>Capital</label><br/><br/>
+            <label>Shipping</label><br/><br/>
+            <label>Ecommerce Automation</label><br/><br/>
+            <label>Fulfillment</label>
+          </div>
+        </Box>
+        
         <Toolbar sx={{marginLeft:'10%'}}>
           <Typography variant='body2' className='select'>Pricing</Typography>
         </Toolbar>

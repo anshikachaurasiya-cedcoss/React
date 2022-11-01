@@ -1,6 +1,3 @@
-.css-0{
-  text-align: center !important;
-}
 .css-hyum1k-MuiToolbar-root a{
   color: black !important;
   font-size: 900 !important;
@@ -45,6 +42,9 @@ height: 70px !important;
 .selectBox:hover .MarketDiv{
   display: block;
 }
+.selectBox:hover .ManageDiv{
+  display: block;
+}
 .SellDiv{
   display: none;
   height: 350px;
@@ -61,6 +61,16 @@ height: 70px !important;
   width: 250px;
   border-radius: 5px;
   border: 1px solid rgb(187, 182, 182);
+  background-color: white;
+  color: gray;
+  text-align: left;
+}
+.ManageDiv{
+  display: none;
+  height: 300px;
+  width: 250px;
+  border-radius: 5px;
+  border:1px solid rgb(187,182,182);
   background-color: white;
   color: gray;
   text-align: left;
@@ -209,4 +219,42 @@ height: 70px !important;
   .SignPageLeft h1{
     font-size: 2rem !important;
   }
+}
+
+/* CaptalPage Component */
+
+.capitalMainBox{
+  margin-top: 70px;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+.capitalMainBoxLeft{
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  width: 40%;
+  padding-top: 5%;
+  justify-content: center;
+}
+.capitalItemsBox{
+  height: 500px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,1fr);
+  gap: 2.5em;
+  padding: 1%;
+  margin: auto;
+}
+.capitalItemBox{
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* align-items: center; */
 }

@@ -6,7 +6,7 @@ import SignPage from './SignPage'
 const MainPage = (props) => {
   return (
     <React.Fragment>
-        <Navbar select={props.select}/>
+        <Navbar select={props.select} capitalHandler={props.capitalHandler}/>
         <SignPage/>
         <Footer/>
         <div className='signBelow10'></div>
