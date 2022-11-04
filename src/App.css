@@ -1,6 +1,5 @@
 body{
-  background: black;
-  color: white;
+  text-align: center;
 }
 .customHook_Items{
   width: 90%;
@@ -16,4 +15,10 @@ body{
   width: 90%;
   border:1px solid grey;
   border-radius: 10px;
+}
+.on{
+  visibility: visible;
+}
+.off{
+  visibility: hidden;
 }
