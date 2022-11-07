@@ -72,6 +72,7 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>Corona Meter</h1>
       <TotalCases arr={arr} click={click} status={status}/>
     </div>
   );

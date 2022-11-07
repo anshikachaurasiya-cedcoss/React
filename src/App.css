@@ -1,10 +1,14 @@
 .App{
     width: 100%;
+    text-align: center;
 }
 .mainTableDiv{
     height: auto;
     width: 98%;
     margin: auto;
+}
+.mainTableDiv tr:hover{
+    background-color: rgb(77, 165, 241);
 }
 .mainTableDiv table{
     width: 90%;
