@@ -1,6 +1,6 @@
 [
   {
-    "Country/Region": "USA",
+    "Country": "USA",
     "Continent": "North America",
     "Population": 331198130,
     "TotalCases": 5032179,
@@ -18,7 +18,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Brazil",
+    "Country": "Brazil",
     "Continent": "South America",
     "Population": 212710692,
     "TotalCases": 2917562,
@@ -36,7 +36,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "India",
+    "Country": "India",
     "Continent": "Asia",
     "Population": 1381344997,
     "TotalCases": 2025409,
@@ -54,7 +54,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "Russia",
+    "Country": "Russia",
     "Continent": "Europe",
     "Population": 145940924,
     "TotalCases": 871894,
@@ -72,7 +72,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "South Africa",
+    "Country": "South Africa",
     "Continent": "Africa",
     "Population": 59381566,
     "TotalCases": 538184,
@@ -90,7 +90,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Mexico",
+    "Country": "Mexico",
     "Continent": "North America",
     "Population": 129066160,
     "TotalCases": 462690,
@@ -108,7 +108,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Peru",
+    "Country": "Peru",
     "Continent": "South America",
     "Population": 33016319,
     "TotalCases": 455409,
@@ -126,7 +126,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Chile",
+    "Country": "Chile",
     "Continent": "South America",
     "Population": 19132514,
     "TotalCases": 366671,
@@ -144,7 +144,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Colombia",
+    "Country": "Colombia",
     "Continent": "South America",
     "Population": 50936262,
     "TotalCases": 357710,
@@ -162,7 +162,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Spain",
+    "Country": "Spain",
     "Continent": "Europe",
     "Population": 46756648,
     "TotalCases": 354530,
@@ -180,7 +180,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Iran",
+    "Country": "Iran",
     "Continent": "Asia",
     "Population": 84097623,
     "TotalCases": 320117,
@@ -198,7 +198,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "UK",
+    "Country": "UK",
     "Continent": "Europe",
     "Population": 67922029,
     "TotalCases": 308134,
@@ -216,7 +216,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Saudi Arabia",
+    "Country": "Saudi Arabia",
     "Continent": "Asia",
     "Population": 34865919,
     "TotalCases": 284226,
@@ -234,7 +234,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Pakistan",
+    "Country": "Pakistan",
     "Continent": "Asia",
     "Population": 221295851,
     "TotalCases": 281863,
@@ -252,7 +252,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Bangladesh",
+    "Country": "Bangladesh",
     "Continent": "Asia",
     "Population": 164851401,
     "TotalCases": 249651,
@@ -270,7 +270,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "Italy",
+    "Country": "Italy",
     "Continent": "Europe",
     "Population": 60452568,
     "TotalCases": 249204,
@@ -288,7 +288,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Turkey",
+    "Country": "Turkey",
     "Continent": "Asia",
     "Population": 84428331,
     "TotalCases": 237265,
@@ -306,7 +306,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Argentina",
+    "Country": "Argentina",
     "Continent": "South America",
     "Population": 45236884,
     "TotalCases": 228195,
@@ -324,7 +324,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Germany",
+    "Country": "Germany",
     "Continent": "Europe",
     "Population": 83811260,
     "TotalCases": 215210,
@@ -342,7 +342,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "France",
+    "Country": "France",
     "Continent": "Europe",
     "Population": 65288306,
     "TotalCases": 195633,
@@ -360,7 +360,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Iraq",
+    "Country": "Iraq",
     "Continent": "Asia",
     "Population": 40306025,
     "TotalCases": 140603,
@@ -378,7 +378,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Philippines",
+    "Country": "Philippines",
     "Continent": "Asia",
     "Population": 109722719,
     "TotalCases": 119460,
@@ -396,7 +396,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Indonesia",
+    "Country": "Indonesia",
     "Continent": "Asia",
     "Population": 273808365,
     "TotalCases": 118753,
@@ -414,7 +414,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "Canada",
+    "Country": "Canada",
     "Continent": "North America",
     "Population": 37775022,
     "TotalCases": 118561,
@@ -432,7 +432,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Qatar",
+    "Country": "Qatar",
     "Continent": "Asia",
     "Population": 2807805,
     "TotalCases": 112092,
@@ -450,7 +450,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Kazakhstan",
+    "Country": "Kazakhstan",
     "Continent": "Asia",
     "Population": 18798667,
     "TotalCases": 95942,
@@ -468,7 +468,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Egypt",
+    "Country": "Egypt",
     "Continent": "Africa",
     "Population": 102516525,
     "TotalCases": 95006,
@@ -486,7 +486,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Ecuador",
+    "Country": "Ecuador",
     "Continent": "South America",
     "Population": 17668824,
     "TotalCases": 90537,
@@ -504,7 +504,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Bolivia",
+    "Country": "Bolivia",
     "Continent": "South America",
     "Population": 11688459,
     "TotalCases": 86423,
@@ -522,7 +522,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Sweden",
+    "Country": "Sweden",
     "Continent": "Europe",
     "Population": 10105596,
     "TotalCases": 81967,
@@ -540,7 +540,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Oman",
+    "Country": "Oman",
     "Continent": "Asia",
     "Population": 5118446,
     "TotalCases": 80713,
@@ -558,7 +558,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Israel",
+    "Country": "Israel",
     "Continent": "Asia",
     "Population": 9197590,
     "TotalCases": 79559,
@@ -576,7 +576,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Ukraine",
+    "Country": "Ukraine",
     "Continent": "Europe",
     "Population": 43705858,
     "TotalCases": 76808,
@@ -594,7 +594,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Dominican Republic",
+    "Country": "Dominican Republic",
     "Continent": "North America",
     "Population": 10858648,
     "TotalCases": 76536,
@@ -612,7 +612,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Panama",
+    "Country": "Panama",
     "Continent": "North America",
     "Population": 4321282,
     "TotalCases": 71418,
@@ -630,7 +630,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Belgium",
+    "Country": "Belgium",
     "Continent": "Europe",
     "Population": 11594739,
     "TotalCases": 71158,
@@ -648,7 +648,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Kuwait",
+    "Country": "Kuwait",
     "Continent": "Asia",
     "Population": 4276658,
     "TotalCases": 70045,
@@ -666,7 +666,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Belarus",
+    "Country": "Belarus",
     "Continent": "Europe",
     "Population": 9449001,
     "TotalCases": 68503,
@@ -684,7 +684,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "UAE",
+    "Country": "UAE",
     "Continent": "Asia",
     "Population": 9902079,
     "TotalCases": 61845,
@@ -702,7 +702,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Romania",
+    "Country": "Romania",
     "Continent": "Europe",
     "Population": 19224023,
     "TotalCases": 57895,
@@ -720,7 +720,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Netherlands",
+    "Country": "Netherlands",
     "Continent": "Europe",
     "Population": 17138756,
     "TotalCases": 56982,
@@ -738,7 +738,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Singapore",
+    "Country": "Singapore",
     "Continent": "Asia",
     "Population": 5854932,
     "TotalCases": 54555,
@@ -756,7 +756,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Guatemala",
+    "Country": "Guatemala",
     "Continent": "North America",
     "Population": 17946899,
     "TotalCases": 54339,
@@ -774,7 +774,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Portugal",
+    "Country": "Portugal",
     "Continent": "Europe",
     "Population": 10193593,
     "TotalCases": 52061,
@@ -792,7 +792,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Poland",
+    "Country": "Poland",
     "Continent": "Europe",
     "Population": 37842302,
     "TotalCases": 49515,
@@ -810,7 +810,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Nigeria",
+    "Country": "Nigeria",
     "Continent": "Africa",
     "Population": 206606300,
     "TotalCases": 45244,
@@ -828,7 +828,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Honduras",
+    "Country": "Honduras",
     "Continent": "North America",
     "Population": 9919704,
     "TotalCases": 45098,
@@ -846,7 +846,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Bahrain",
+    "Country": "Bahrain",
     "Continent": "Asia",
     "Population": 1706669,
     "TotalCases": 42889,
@@ -864,7 +864,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Japan",
+    "Country": "Japan",
     "Continent": "Asia",
     "Population": 126435859,
     "TotalCases": 42263,
@@ -882,7 +882,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Armenia",
+    "Country": "Armenia",
     "Continent": "Asia",
     "Population": 2963811,
     "TotalCases": 39819,
@@ -900,7 +900,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Ghana",
+    "Country": "Ghana",
     "Continent": "Africa",
     "Population": 31133483,
     "TotalCases": 39642,
@@ -918,7 +918,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Kyrgyzstan",
+    "Country": "Kyrgyzstan",
     "Continent": "Asia",
     "Population": 6534479,
     "TotalCases": 38659,
@@ -936,7 +936,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Afghanistan",
+    "Country": "Afghanistan",
     "Continent": "Asia",
     "Population": 39009447,
     "TotalCases": 36896,
@@ -954,7 +954,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Switzerland",
+    "Country": "Switzerland",
     "Continent": "Europe",
     "Population": 8660952,
     "TotalCases": 36108,
@@ -972,7 +972,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Algeria",
+    "Country": "Algeria",
     "Continent": "Africa",
     "Population": 43926079,
     "TotalCases": 33626,
@@ -990,7 +990,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Azerbaijan",
+    "Country": "Azerbaijan",
     "Continent": "Asia",
     "Population": 10148243,
     "TotalCases": 33247,
@@ -1008,7 +1008,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Morocco",
+    "Country": "Morocco",
     "Continent": "Africa",
     "Population": 36953359,
     "TotalCases": 29644,
@@ -1026,7 +1026,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Uzbekistan",
+    "Country": "Uzbekistan",
     "Continent": "Asia",
     "Population": 33516027,
     "TotalCases": 28315,
@@ -1044,7 +1044,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Serbia",
+    "Country": "Serbia",
     "Continent": "Europe",
     "Population": 8733665,
     "TotalCases": 27332,
@@ -1062,7 +1062,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Moldova",
+    "Country": "Moldova",
     "Continent": "Europe",
     "Population": 4032983,
     "TotalCases": 26628,
@@ -1080,7 +1080,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Ireland",
+    "Country": "Ireland",
     "Continent": "Europe",
     "Population": 4943200,
     "TotalCases": 26372,
@@ -1098,7 +1098,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Kenya",
+    "Country": "Kenya",
     "Continent": "Africa",
     "Population": 53881160,
     "TotalCases": 24411,
@@ -1116,7 +1116,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Venezuela",
+    "Country": "Venezuela",
     "Continent": "South America",
     "Population": 28427499,
     "TotalCases": 22299,
@@ -1134,7 +1134,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Nepal",
+    "Country": "Nepal",
     "Continent": "Asia",
     "Population": 29186486,
     "TotalCases": 21750,
@@ -1152,7 +1152,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "Austria",
+    "Country": "Austria",
     "Continent": "Europe",
     "Population": 9011577,
     "TotalCases": 21696,
@@ -1170,7 +1170,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Costa Rica",
+    "Country": "Costa Rica",
     "Continent": "North America",
     "Population": 5098730,
     "TotalCases": 21070,
@@ -1188,7 +1188,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Ethiopia",
+    "Country": "Ethiopia",
     "Continent": "Africa",
     "Population": 115223736,
     "TotalCases": 20900,
@@ -1206,7 +1206,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Australia",
+    "Country": "Australia",
     "Continent": "Australia/Oceania",
     "Population": 25528864,
     "TotalCases": 19890,
@@ -1224,7 +1224,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "El Salvador",
+    "Country": "El Salvador",
     "Continent": "North America",
     "Population": 6489514,
     "TotalCases": 19126,
@@ -1242,7 +1242,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Czechia",
+    "Country": "Czechia",
     "Continent": "Europe",
     "Population": 10711019,
     "TotalCases": 17731,
@@ -1260,7 +1260,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Cameroon",
+    "Country": "Cameroon",
     "Continent": "Africa",
     "Population": 26606188,
     "TotalCases": 17718,
@@ -1278,7 +1278,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Ivory Coast",
+    "Country": "Ivory Coast",
     "Continent": "Africa",
     "Population": 26437950,
     "TotalCases": 16447,
@@ -1296,7 +1296,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "S. Korea",
+    "Country": "S. Korea",
     "Continent": "Asia",
     "Population": 51273732,
     "TotalCases": 14519,
@@ -1314,7 +1314,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Denmark",
+    "Country": "Denmark",
     "Continent": "Europe",
     "Population": 5794279,
     "TotalCases": 14306,
@@ -1332,7 +1332,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Palestine",
+    "Country": "Palestine",
     "Continent": "Asia",
     "Population": 5112340,
     "TotalCases": 13398,
@@ -1350,7 +1350,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Bosnia and Herzegovina",
+    "Country": "Bosnia and Herzegovina",
     "Continent": "Europe",
     "Population": 3278650,
     "TotalCases": 13396,
@@ -1368,7 +1368,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Bulgaria",
+    "Country": "Bulgaria",
     "Continent": "Europe",
     "Population": 6942854,
     "TotalCases": 13014,
@@ -1386,7 +1386,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Madagascar",
+    "Country": "Madagascar",
     "Continent": "Africa",
     "Population": 27755708,
     "TotalCases": 12526,
@@ -1404,7 +1404,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Sudan",
+    "Country": "Sudan",
     "Continent": "Africa",
     "Population": 43943536,
     "TotalCases": 11780,
@@ -1422,7 +1422,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "North Macedonia",
+    "Country": "North Macedonia",
     "Continent": "Europe",
     "Population": 2083365,
     "TotalCases": 11399,
@@ -1440,7 +1440,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Senegal",
+    "Country": "Senegal",
     "Continent": "Africa",
     "Population": 16783877,
     "TotalCases": 10715,
@@ -1458,7 +1458,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Norway",
+    "Country": "Norway",
     "Continent": "Europe",
     "Population": 5425471,
     "TotalCases": 9468,
@@ -1476,7 +1476,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "DRC",
+    "Country": "DRC",
     "Continent": "Africa",
     "Population": 89802183,
     "TotalCases": 9309,
@@ -1494,7 +1494,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Malaysia",
+    "Country": "Malaysia",
     "Continent": "Asia",
     "Population": 32406372,
     "TotalCases": 9038,
@@ -1512,7 +1512,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "French Guiana",
+    "Country": "French Guiana",
     "Continent": "South America",
     "Population": 299385,
     "TotalCases": 8127,
@@ -1530,7 +1530,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Gabon",
+    "Country": "Gabon",
     "Continent": "Africa",
     "Population": 2230563,
     "TotalCases": 7787,
@@ -1548,7 +1548,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Tajikistan",
+    "Country": "Tajikistan",
     "Continent": "Asia",
     "Population": 9557468,
     "TotalCases": 7665,
@@ -1566,7 +1566,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Guinea",
+    "Country": "Guinea",
     "Continent": "Africa",
     "Population": 13164905,
     "TotalCases": 7664,
@@ -1584,7 +1584,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Haiti",
+    "Country": "Haiti",
     "Continent": "North America",
     "Population": 11416103,
     "TotalCases": 7544,
@@ -1602,7 +1602,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Finland",
+    "Country": "Finland",
     "Continent": "Europe",
     "Population": 5541604,
     "TotalCases": 7532,
@@ -1620,7 +1620,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Zambia",
+    "Country": "Zambia",
     "Continent": "Africa",
     "Population": 18430129,
     "TotalCases": 7164,
@@ -1638,7 +1638,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Luxembourg",
+    "Country": "Luxembourg",
     "Continent": "Europe",
     "Population": 626952,
     "TotalCases": 7073,
@@ -1656,7 +1656,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Mauritania",
+    "Country": "Mauritania",
     "Continent": "Africa",
     "Population": 4660728,
     "TotalCases": 6444,
@@ -1674,7 +1674,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Paraguay",
+    "Country": "Paraguay",
     "Continent": "South America",
     "Population": 7141091,
     "TotalCases": 6375,
@@ -1692,7 +1692,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Albania",
+    "Country": "Albania",
     "Continent": "Europe",
     "Population": 2877470,
     "TotalCases": 6016,
@@ -1710,7 +1710,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Lebanon",
+    "Country": "Lebanon",
     "Continent": "Asia",
     "Population": 6822220,
     "TotalCases": 5672,
@@ -1728,7 +1728,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Croatia",
+    "Country": "Croatia",
     "Continent": "Europe",
     "Population": 4102577,
     "TotalCases": 5404,
@@ -1746,7 +1746,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Djibouti",
+    "Country": "Djibouti",
     "Continent": "Africa",
     "Population": 989387,
     "TotalCases": 5330,
@@ -1764,7 +1764,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Greece",
+    "Country": "Greece",
     "Continent": "Europe",
     "Population": 10417673,
     "TotalCases": 5123,
@@ -1782,7 +1782,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Libya",
+    "Country": "Libya",
     "Continent": "Africa",
     "Population": 6880353,
     "TotalCases": 4879,
@@ -1800,7 +1800,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Equatorial Guinea",
+    "Country": "Equatorial Guinea",
     "Continent": "Africa",
     "Population": 1407001,
     "TotalCases": 4821,
@@ -1818,7 +1818,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Maldives",
+    "Country": "Maldives",
     "Continent": "Asia",
     "Population": 541448,
     "TotalCases": 4680,
@@ -1836,7 +1836,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "CAR",
+    "Country": "CAR",
     "Continent": "Africa",
     "Population": 4837752,
     "TotalCases": 4620,
@@ -1854,7 +1854,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Hungary",
+    "Country": "Hungary",
     "Continent": "Europe",
     "Population": 9657785,
     "TotalCases": 4597,
@@ -1872,7 +1872,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Malawi",
+    "Country": "Malawi",
     "Continent": "Africa",
     "Population": 19174839,
     "TotalCases": 4491,
@@ -1890,7 +1890,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Zimbabwe",
+    "Country": "Zimbabwe",
     "Continent": "Africa",
     "Population": 14883803,
     "TotalCases": 4339,
@@ -1908,7 +1908,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Nicaragua",
+    "Country": "Nicaragua",
     "Continent": "North America",
     "Population": 6632263,
     "TotalCases": 3902,
@@ -1926,7 +1926,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Hong Kong",
+    "Country": "Hong Kong",
     "Continent": "Asia",
     "Population": 7503041,
     "TotalCases": 3850,
@@ -1944,7 +1944,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Congo",
+    "Country": "Congo",
     "Continent": "Africa",
     "Population": 5530506,
     "TotalCases": 3546,
@@ -1962,7 +1962,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Montenegro",
+    "Country": "Montenegro",
     "Continent": "Europe",
     "Population": 628074,
     "TotalCases": 3480,
@@ -1980,7 +1980,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Thailand",
+    "Country": "Thailand",
     "Continent": "Asia",
     "Population": 69817894,
     "TotalCases": 3330,
@@ -1998,7 +1998,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "Somalia",
+    "Country": "Somalia",
     "Continent": "Africa",
     "Population": 15933012,
     "TotalCases": 3227,
@@ -2016,7 +2016,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Mayotte",
+    "Country": "Mayotte",
     "Continent": "Africa",
     "Population": 273419,
     "TotalCases": 3042,
@@ -2034,7 +2034,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Eswatini",
+    "Country": "Eswatini",
     "Continent": "Africa",
     "Population": 1161348,
     "TotalCases": 2968,
@@ -2052,7 +2052,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Sri Lanka",
+    "Country": "Sri Lanka",
     "Continent": "Asia",
     "Population": 21422362,
     "TotalCases": 2839,
@@ -2070,7 +2070,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "Cuba",
+    "Country": "Cuba",
     "Continent": "North America",
     "Population": 11325899,
     "TotalCases": 2775,
@@ -2088,7 +2088,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Cabo Verde",
+    "Country": "Cabo Verde",
     "Continent": "Africa",
     "Population": 556581,
     "TotalCases": 2734,
@@ -2106,7 +2106,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Namibia",
+    "Country": "Namibia",
     "Continent": "Africa",
     "Population": 2545264,
     "TotalCases": 2652,
@@ -2124,7 +2124,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Mali",
+    "Country": "Mali",
     "Continent": "Africa",
     "Population": 20302901,
     "TotalCases": 2552,
@@ -2142,7 +2142,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Slovakia",
+    "Country": "Slovakia",
     "Continent": "Europe",
     "Population": 5459915,
     "TotalCases": 2480,
@@ -2160,7 +2160,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "South Sudan",
+    "Country": "South Sudan",
     "Continent": "Africa",
     "Population": 11206572,
     "TotalCases": 2450,
@@ -2178,7 +2178,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Slovenia",
+    "Country": "Slovenia",
     "Continent": "Europe",
     "Population": 2078968,
     "TotalCases": 2223,
@@ -2196,7 +2196,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Lithuania",
+    "Country": "Lithuania",
     "Continent": "Europe",
     "Population": 2718121,
     "TotalCases": 2171,
@@ -2214,7 +2214,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Estonia",
+    "Country": "Estonia",
     "Continent": "Europe",
     "Population": 1326627,
     "TotalCases": 2124,
@@ -2232,7 +2232,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Mozambique",
+    "Country": "Mozambique",
     "Continent": "Africa",
     "Population": 31333962,
     "TotalCases": 2120,
@@ -2250,7 +2250,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Rwanda",
+    "Country": "Rwanda",
     "Continent": "Africa",
     "Population": 12981546,
     "TotalCases": 2111,
@@ -2268,7 +2268,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Suriname",
+    "Country": "Suriname",
     "Continent": "South America",
     "Population": 587154,
     "TotalCases": 2096,
@@ -2286,7 +2286,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Guinea-Bissau",
+    "Country": "Guinea-Bissau",
     "Continent": "Africa",
     "Population": 1972277,
     "TotalCases": 2032,
@@ -2304,7 +2304,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Benin",
+    "Country": "Benin",
     "Continent": "Africa",
     "Population": 12151976,
     "TotalCases": 1936,
@@ -2322,7 +2322,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Iceland",
+    "Country": "Iceland",
     "Continent": "Europe",
     "Population": 341465,
     "TotalCases": 1930,
@@ -2340,7 +2340,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Sierra Leone",
+    "Country": "Sierra Leone",
     "Continent": "Africa",
     "Population": 7992169,
     "TotalCases": 1877,
@@ -2358,7 +2358,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Yemen",
+    "Country": "Yemen",
     "Continent": "Asia",
     "Population": 29886897,
     "TotalCases": 1768,
@@ -2376,7 +2376,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Tunisia",
+    "Country": "Tunisia",
     "Continent": "Africa",
     "Population": 11830801,
     "TotalCases": 1642,
@@ -2394,7 +2394,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "New Zealand",
+    "Country": "New Zealand",
     "Continent": "Australia/Oceania",
     "Population": 5002100,
     "TotalCases": 1569,
@@ -2412,7 +2412,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Angola",
+    "Country": "Angola",
     "Continent": "Africa",
     "Population": 32956300,
     "TotalCases": 1483,
@@ -2430,7 +2430,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Uruguay",
+    "Country": "Uruguay",
     "Continent": "South America",
     "Population": 3474956,
     "TotalCases": 1318,
@@ -2448,7 +2448,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Latvia",
+    "Country": "Latvia",
     "Continent": "Europe",
     "Population": 1883936,
     "TotalCases": 1275,
@@ -2466,7 +2466,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Jordan",
+    "Country": "Jordan",
     "Continent": "Asia",
     "Population": 10213138,
     "TotalCases": 1232,
@@ -2484,7 +2484,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Liberia",
+    "Country": "Liberia",
     "Continent": "Africa",
     "Population": 5068618,
     "TotalCases": 1224,
@@ -2502,7 +2502,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Uganda",
+    "Country": "Uganda",
     "Continent": "Africa",
     "Population": 45867852,
     "TotalCases": 1223,
@@ -2520,7 +2520,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Cyprus",
+    "Country": "Cyprus",
     "Continent": "Asia",
     "Population": 1208238,
     "TotalCases": 1208,
@@ -2538,7 +2538,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Georgia",
+    "Country": "Georgia",
     "Continent": "Asia",
     "Population": 3988368,
     "TotalCases": 1206,
@@ -2556,7 +2556,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Burkina Faso",
+    "Country": "Burkina Faso",
     "Continent": "Africa",
     "Population": 20954852,
     "TotalCases": 1158,
@@ -2574,7 +2574,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Niger",
+    "Country": "Niger",
     "Continent": "Africa",
     "Population": 24281433,
     "TotalCases": 1153,
@@ -2592,7 +2592,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Togo",
+    "Country": "Togo",
     "Continent": "Africa",
     "Population": 8296582,
     "TotalCases": 1012,
@@ -2610,7 +2610,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Syria",
+    "Country": "Syria",
     "Continent": "Asia",
     "Population": 17539600,
     "TotalCases": 999,
@@ -2628,7 +2628,7 @@
     "WHO Region": "EasternMediterranean"
   },
   {
-    "Country/Region": "Jamaica",
+    "Country": "Jamaica",
     "Continent": "North America",
     "Population": 2962478,
     "TotalCases": 958,
@@ -2646,7 +2646,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Malta",
+    "Country": "Malta",
     "Continent": "Europe",
     "Population": 441663,
     "TotalCases": 946,
@@ -2664,7 +2664,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Andorra",
+    "Country": "Andorra",
     "Continent": "Europe",
     "Population": 77278,
     "TotalCases": 944,
@@ -2682,7 +2682,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Chad",
+    "Country": "Chad",
     "Continent": "Africa",
     "Population": 16467965,
     "TotalCases": 942,
@@ -2700,7 +2700,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Gambia",
+    "Country": "Gambia",
     "Continent": "Africa",
     "Population": 2422754,
     "TotalCases": 935,
@@ -2718,7 +2718,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Sao Tome and Principe",
+    "Country": "Sao Tome and Principe",
     "Continent": "Africa",
     "Population": 219544,
     "TotalCases": 878,
@@ -2736,7 +2736,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Botswana",
+    "Country": "Botswana",
     "Continent": "Africa",
     "Population": 2356075,
     "TotalCases": 804,
@@ -2754,7 +2754,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Bahamas",
+    "Country": "Bahamas",
     "Continent": "North America",
     "Population": 393616,
     "TotalCases": 761,
@@ -2772,7 +2772,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Vietnam",
+    "Country": "Vietnam",
     "Continent": "Asia",
     "Population": 97425470,
     "TotalCases": 747,
@@ -2790,7 +2790,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Lesotho",
+    "Country": "Lesotho",
     "Continent": "Africa",
     "Population": 2143943,
     "TotalCases": 742,
@@ -2808,7 +2808,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Diamond Princess",
+    "Country": "Diamond Princess",
     "Continent": "",
     "Population": "",
     "TotalCases": 712,
@@ -2826,7 +2826,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "San Marino",
+    "Country": "San Marino",
     "Continent": "Europe",
     "Population": 33938,
     "TotalCases": 699,
@@ -2844,7 +2844,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Réunion",
+    "Country": "Réunion",
     "Continent": "Africa",
     "Population": 895952,
     "TotalCases": 671,
@@ -2862,7 +2862,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Channel Islands",
+    "Country": "Channel Islands",
     "Continent": "Europe",
     "Population": 174022,
     "TotalCases": 597,
@@ -2880,7 +2880,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Guyana",
+    "Country": "Guyana",
     "Continent": "South America",
     "Population": 786936,
     "TotalCases": 538,
@@ -2898,7 +2898,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Tanzania",
+    "Country": "Tanzania",
     "Continent": "Africa",
     "Population": 59886383,
     "TotalCases": 509,
@@ -2916,7 +2916,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Taiwan",
+    "Country": "Taiwan",
     "Continent": "Asia",
     "Population": 23821199,
     "TotalCases": 477,
@@ -2934,7 +2934,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Comoros",
+    "Country": "Comoros",
     "Continent": "Africa",
     "Population": 871326,
     "TotalCases": 396,
@@ -2952,7 +2952,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Burundi",
+    "Country": "Burundi",
     "Continent": "Africa",
     "Population": 11922216,
     "TotalCases": 395,
@@ -2970,7 +2970,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Myanmar",
+    "Country": "Myanmar",
     "Continent": "Asia",
     "Population": 54446389,
     "TotalCases": 357,
@@ -2988,7 +2988,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "Mauritius",
+    "Country": "Mauritius",
     "Continent": "Africa",
     "Population": 1271985,
     "TotalCases": 344,
@@ -3006,7 +3006,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Isle of Man",
+    "Country": "Isle of Man",
     "Continent": "Europe",
     "Population": 85078,
     "TotalCases": 336,
@@ -3024,7 +3024,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Mongolia",
+    "Country": "Mongolia",
     "Continent": "Asia",
     "Population": 3283344,
     "TotalCases": 293,
@@ -3042,7 +3042,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Eritrea",
+    "Country": "Eritrea",
     "Continent": "Africa",
     "Population": 3551175,
     "TotalCases": 282,
@@ -3060,7 +3060,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Guadeloupe",
+    "Country": "Guadeloupe",
     "Continent": "North America",
     "Population": 400131,
     "TotalCases": 279,
@@ -3078,7 +3078,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Martinique",
+    "Country": "Martinique",
     "Continent": "North America",
     "Population": 375235,
     "TotalCases": 276,
@@ -3096,7 +3096,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Faeroe Islands",
+    "Country": "Faeroe Islands",
     "Continent": "Europe",
     "Population": 48882,
     "TotalCases": 266,
@@ -3114,7 +3114,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Aruba",
+    "Country": "Aruba",
     "Continent": "North America",
     "Population": 106812,
     "TotalCases": 263,
@@ -3132,7 +3132,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Cambodia",
+    "Country": "Cambodia",
     "Continent": "Asia",
     "Population": 16741375,
     "TotalCases": 243,
@@ -3150,7 +3150,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Trinidad and Tobago",
+    "Country": "Trinidad and Tobago",
     "Continent": "North America",
     "Population": 1399950,
     "TotalCases": 210,
@@ -3168,7 +3168,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Cayman Islands",
+    "Country": "Cayman Islands",
     "Continent": "North America",
     "Population": 65798,
     "TotalCases": 203,
@@ -3186,7 +3186,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Gibraltar",
+    "Country": "Gibraltar",
     "Continent": "Europe",
     "Population": 33690,
     "TotalCases": 190,
@@ -3204,7 +3204,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Papua New Guinea",
+    "Country": "Papua New Guinea",
     "Continent": "Australia/Oceania",
     "Population": 8963009,
     "TotalCases": 163,
@@ -3222,7 +3222,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Sint Maarten",
+    "Country": "Sint Maarten",
     "Continent": "North America",
     "Population": 42924,
     "TotalCases": 160,
@@ -3240,7 +3240,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Bermuda",
+    "Country": "Bermuda",
     "Continent": "North America",
     "Population": 62254,
     "TotalCases": 157,
@@ -3258,7 +3258,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Brunei",
+    "Country": "Brunei",
     "Continent": "Asia",
     "Population": 437893,
     "TotalCases": 141,
@@ -3276,7 +3276,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Barbados",
+    "Country": "Barbados",
     "Continent": "North America",
     "Population": 287411,
     "TotalCases": 133,
@@ -3294,7 +3294,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Turks and Caicos",
+    "Country": "Turks and Caicos",
     "Continent": "North America",
     "Population": 38768,
     "TotalCases": 129,
@@ -3312,7 +3312,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Seychelles",
+    "Country": "Seychelles",
     "Continent": "Africa",
     "Population": 98408,
     "TotalCases": 126,
@@ -3330,7 +3330,7 @@
     "WHO Region": "Africa"
   },
   {
-    "Country/Region": "Monaco",
+    "Country": "Monaco",
     "Continent": "Europe",
     "Population": 39270,
     "TotalCases": 125,
@@ -3348,7 +3348,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Bhutan",
+    "Country": "Bhutan",
     "Continent": "Asia",
     "Population": 772443,
     "TotalCases": 105,
@@ -3366,7 +3366,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "Antigua and Barbuda",
+    "Country": "Antigua and Barbuda",
     "Continent": "North America",
     "Population": 98010,
     "TotalCases": 92,
@@ -3384,7 +3384,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Liechtenstein",
+    "Country": "Liechtenstein",
     "Continent": "Europe",
     "Population": 38139,
     "TotalCases": 89,
@@ -3402,7 +3402,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Belize",
+    "Country": "Belize",
     "Continent": "North America",
     "Population": 398312,
     "TotalCases": 86,
@@ -3420,7 +3420,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "French Polynesia",
+    "Country": "French Polynesia",
     "Continent": "Australia/Oceania",
     "Population": 281072,
     "TotalCases": 64,
@@ -3438,7 +3438,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "St. Vincent Grenadines",
+    "Country": "St. Vincent Grenadines",
     "Continent": "North America",
     "Population": 110976,
     "TotalCases": 56,
@@ -3456,7 +3456,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Saint Martin",
+    "Country": "Saint Martin",
     "Continent": "North America",
     "Population": 38729,
     "TotalCases": 53,
@@ -3474,7 +3474,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Macao",
+    "Country": "Macao",
     "Continent": "Asia",
     "Population": 650193,
     "TotalCases": 46,
@@ -3492,7 +3492,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Curaçao",
+    "Country": "Curaçao",
     "Continent": "North America",
     "Population": 164161,
     "TotalCases": 31,
@@ -3510,7 +3510,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Fiji",
+    "Country": "Fiji",
     "Continent": "Australia/Oceania",
     "Population": 897095,
     "TotalCases": 27,
@@ -3528,7 +3528,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Saint Lucia",
+    "Country": "Saint Lucia",
     "Continent": "North America",
     "Population": 183712,
     "TotalCases": 25,
@@ -3546,7 +3546,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Timor-Leste",
+    "Country": "Timor-Leste",
     "Continent": "Asia",
     "Population": 1320812,
     "TotalCases": 25,
@@ -3564,7 +3564,7 @@
     "WHO Region": "South-EastAsia"
   },
   {
-    "Country/Region": "Grenada",
+    "Country": "Grenada",
     "Continent": "North America",
     "Population": 112576,
     "TotalCases": 24,
@@ -3582,7 +3582,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "New Caledonia",
+    "Country": "New Caledonia",
     "Continent": "Australia/Oceania",
     "Population": 285769,
     "TotalCases": 22,
@@ -3600,7 +3600,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Laos",
+    "Country": "Laos",
     "Continent": "Asia",
     "Population": 7285750,
     "TotalCases": 20,
@@ -3618,7 +3618,7 @@
     "WHO Region": "WesternPacific"
   },
   {
-    "Country/Region": "Dominica",
+    "Country": "Dominica",
     "Continent": "North America",
     "Population": 72004,
     "TotalCases": 18,
@@ -3636,7 +3636,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Saint Kitts and Nevis",
+    "Country": "Saint Kitts and Nevis",
     "Continent": "North America",
     "Population": 53237,
     "TotalCases": 17,
@@ -3654,7 +3654,7 @@
     "WHO Region": "Americas"
   },
   {
-    "Country/Region": "Greenland",
+    "Country": "Greenland",
     "Continent": "North America",
     "Population": 56780,
     "TotalCases": 14,
@@ -3672,7 +3672,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Montserrat",
+    "Country": "Montserrat",
     "Continent": "North America",
     "Population": 4992,
     "TotalCases": 13,
@@ -3690,7 +3690,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Caribbean Netherlands",
+    "Country": "Caribbean Netherlands",
     "Continent": "North America",
     "Population": 26247,
     "TotalCases": 13,
@@ -3708,7 +3708,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Falkland Islands",
+    "Country": "Falkland Islands",
     "Continent": "South America",
     "Population": 3489,
     "TotalCases": 13,
@@ -3726,7 +3726,7 @@
     "WHO Region": ""
   },
   {
-    "Country/Region": "Vatican City",
+    "Country": "Vatican City",
     "Continent": "Europe",
     "Population": 801,
     "TotalCases": 12,
@@ -3744,7 +3744,7 @@
     "WHO Region": "Europe"
   },
   {
-    "Country/Region": "Western Sahara",
+    "Country": "Western Sahara",
     "Continent": "Africa",
     "Population": 598682,
     "TotalCases": 10,

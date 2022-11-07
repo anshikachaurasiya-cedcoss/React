@@ -1,0 +1,27 @@
+.App{
+    width: 100%;
+}
+.mainTableDiv{
+    height: auto;
+    width: 98%;
+    margin: auto;
+}
+.mainTableDiv table{
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 2% auto;
+}
+.mainTableDiv table,tr,td,th {
+    border:  0.5px solid rgb(129, 126, 126);
+    border-radius: 5px;
+}
+.mainTableDiv tr, th{
+    height: 40px !important;
+}
+.mainTableDiv th{
+    background-color: rgb(174, 209, 240);
+}
+.mainTableDiv tr{
+    background-color: aliceblue;
+}
