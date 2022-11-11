@@ -1,38 +1,100 @@
-.App {
+body{
+  background-color: whitesmoke;
+}
+.App{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#get{
+  height: auto;
+  width: 85%;
+  border: 1px solid black;
+  margin: 2% auto;
+  border-collapse: collapse;
+}
+#getAsync{
+  height: auto;
+  width: 85%;
+  border: 1px solid black;
+  margin: 2% auto;
+  border-collapse: collapse;
+}
+#getAxios{
+  height: auto;
+  width: 85%;
+  border: 1px solid black;
+  margin: 2% auto;
+  border-collapse: collapse;
+}
+th,td,tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#get th,#getAsync th,#getAxios th{
+  height: 40px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+#get tr:nth-child(even) {
+  background-color: #FFB9B9;
+}
+#getAxios tr:nth-child(even){
+  background-color: rgb(238, 195, 116);
+}
+#getAxios tr:nth-child(odd){
+  background-color: rgb(235, 222, 197);
+}
+#getAsync tr:nth-child(even){
+  background-color: aliceblue;
+}
+#getAsync tr:nth-child(odd){
+  background-color: rgb(194, 221, 245);
+}
+#get tr:nth-child(odd){
+  background-color: #FFDDD2;
+}
+a{
+  height: 40px;
+  width: 100px;
+  margin: 5px;
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#form{
+  height: 250px;
+  width: 40%;
+  margin: 2% auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+#form input{
+  height: 30px;
+  width: 80%;
+  margin: 2% auto;
+  border: none;
+  background-color: whitesmoke;
+  border-bottom: 1px solid black;
+}
+#form button{
+  height: 40px;
+  width: 80%;
+  margin: 2% auto;
+  border: none;
+  background-color: orange;
+  border-radius: 5px;
+  font-size: 1.5rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete{
+  height: 40px;
+  width: 20%;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
 }
