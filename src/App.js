@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import data from './data.txt';
 
 function App() {
+  var[str,setStr]=useState('')
+  useEffect(()=>{
+    fetch(data)
+    .then(res=>res.text())
+    .then(data=>{
+      var i = data
+      setStr(data)
+    })
+  },[])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {str}
     </div>
   );
 }
