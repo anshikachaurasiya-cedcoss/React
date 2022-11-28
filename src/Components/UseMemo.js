@@ -23,7 +23,7 @@ const UseMemo = () => {
     // button toggle function
 
     const toggles=()=>{
-        if(style=='green'){
+        if(style==='green'){
         setStyle('yellow')
         }
         else{

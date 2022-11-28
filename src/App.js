@@ -1,4 +1,5 @@
 import './App.css';
+import UseCallBack from './Components/UseCallBack';
 import UseMemo from './Components/UseMemo';
 
 function App() {
@@ -6,6 +7,9 @@ function App() {
   <div className="App">
     <h2>UseMemo Task 1</h2>
     <UseMemo/>
+    <hr/>
+    <h2>UseCallback Task 2</h2>
+    <UseCallBack/>
   </div>
   );
 }
