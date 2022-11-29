@@ -28,3 +28,12 @@
 .yellow{
   background: yellow;
 }
+
+.customtable{
+  width: 80%;
+  margin: 5% auto;
+}
+.customtable,tr,td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
